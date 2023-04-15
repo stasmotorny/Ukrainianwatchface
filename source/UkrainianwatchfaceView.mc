@@ -6,29 +6,26 @@ import Toybox.Activity;
 import Toybox.Weather;
 using Toybox.ActivityMonitor as Mon;
 using Toybox.Time.Gregorian;
+using Toybox.WatchUi as Ui;
 
 class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var width, height;
-	var myFontComfortaaLarge = null;
+	var comfortaaLarge = null;
     var comfortaaSmall = null;
     var comfortaaMedium = null;
     var flashIcon;
+    var kcalIcon;
 
     function initialize() {
         WatchFace.initialize();
 
-        flashIcon = new WatchUi.Bitmap({
-            :rezId=>Rez.Drawables.Flash,
-            :locX=>140,
-            :locY=>200,
-            :width=>100,
-            :height=>100
-        });
+        flashIcon = Ui.loadResource(Rez.Drawables.Flash);
+        kcalIcon = Ui.loadResource(Rez.Drawables.Kcal);
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        myFontComfortaaLarge=WatchUi.loadResource(Rez.Fonts.Comfortaa72BoldSmooth);
+        comfortaaLarge=WatchUi.loadResource(Rez.Fonts.ComfortaaLarge);
         comfortaaSmall=WatchUi.loadResource(Rez.Fonts.ComfortaaSmall);
         comfortaaMedium=WatchUi.loadResource(Rez.Fonts.ComfortaaMedium);
         setLayout(Rez.Layouts.WatchFace(dc));
@@ -44,6 +41,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         dc.setColor(Graphics.COLOR_BLACK,Graphics.COLOR_BLACK);
         dc.clear();
+        var hours_width = dc.getTextWidthInPixels(""+"22",comfortaaLarge);
 
         //Weather block
         var currentTemperature = Weather.getCurrentConditions().temperature;
@@ -69,97 +67,47 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
         dc.drawText(
             dc.getWidth() / 2,
-            60,
+            55,
             comfortaaMedium,
-            dateString,
+            today.day_of_week.toString() + " " + today.day + " " + today.month,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         );
 
         //Time block
         var clockTime = System.getClockTime();
         dc.setColor(0x007BFF,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 - 22.5, myFontComfortaaLarge, Lang.format("$1$", [clockTime.hour.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 - 22.5, comfortaaLarge, Lang.format("$1$", [clockTime.hour.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
         dc.setColor(0xFFFF00,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 + 22.5, myFontComfortaaLarge, Lang.format("$1$", [clockTime.min.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 + 22.5, comfortaaLarge, Lang.format("$1$", [clockTime.min.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         //Heart data
         var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
-	    var currentHeartrate = heartrateIterator.next().heartRate;
-        dc.setColor(0x007BFF,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-            dc.getWidth() / 4,
-            dc.getHeight() / 2 - 25,
-            comfortaaSmall,
-            Lang.format("$1$", [currentHeartrate]),
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
-        dc.setColor(0x979595,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-            dc.getWidth() / 4,
-            dc.getHeight() / 2 - 15,
-            comfortaaSmall,
-            "уд./хв.",
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
+	    var currentHeartrate = heartrateIterator.next().heartRate.toString();
+        Utils.drawCommentedValue(dc,currentHeartrate,0x007BFF,"уд./хв.",0x979595,(dc.getWidth() - hours_width) / 4,dc.getHeight() / 2 - 25,comfortaaSmall);
 
         //Steps data block
         var stepCount = Mon.getInfo().steps.toString();
-        dc.setColor(0xFFFF00,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-            dc.getWidth() / 4,
-            dc.getHeight() / 2 + 15,
-            comfortaaSmall,
-            stepCount,
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
-        dc.setColor(0x979595,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-            dc.getWidth() / 4,
-            dc.getHeight() / 2 + 25,
-            comfortaaSmall,
-            "Крок.",
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
+        Utils.drawCommentedValue(dc,stepCount,0xFFFF00,"Крок.",0x979595,(dc.getWidth() - hours_width) / 4,dc.getHeight() / 2 + 15,comfortaaSmall);
 
         //Altitude data block
         var currentAltitude = Activity.getActivityInfo().altitude.toString();
-        dc.setColor(0xFFFF00,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-             dc.getWidth() / 4 * 3,
-            dc.getHeight() / 2 + 15,
-            comfortaaSmall,
-            currentAltitude,
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
-        dc.setColor(0x979595,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-             dc.getWidth() / 4 * 3,
-            dc.getHeight() / 2 + 25,
-            comfortaaSmall,
-            "Метр.",
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
+        Utils.drawCommentedValue(dc,currentAltitude,0xFFFF00,"Метр.",0x979595,(dc.getWidth() - hours_width) / 4 * 3 + hours_width,dc.getHeight() / 2 + 15,comfortaaSmall);
 
         //Floors data block
         var floorsClimbed = Mon.getInfo().floorsClimbed.toString();
-        dc.setColor(0x007BFF,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-            dc.getWidth() / 4 * 3,
-            dc.getHeight() / 2 - 25,
-            comfortaaSmall,
-            floorsClimbed,
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
-        dc.setColor(0x979595,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-             dc.getWidth() / 4 * 3,
-            dc.getHeight() / 2 - 15,
-            comfortaaSmall,
-            "Пов.",
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
+        Utils.drawCommentedValue(dc,floorsClimbed,0x007BFF,"Пов.",0x979595,(dc.getWidth() - hours_width) / 4 * 3 + hours_width,dc.getHeight() / 2 - 25,comfortaaSmall);
 
-        flashIcon.draw(dc);
+        //Bottom block
+        var battery = System.getSystemStats().battery.toNumber().toString() + "%";
+        var calories = Mon.getInfo().calories.toString();
+        var text_width = dc.getTextWidthInPixels(""+calories,comfortaaMedium);
+        dc.drawBitmap(dc.getWidth() / 2 + 10,200,flashIcon);
+        dc.setColor(0xFFFFFF,Graphics.COLOR_TRANSPARENT);
+        dc.drawText(dc.getWidth() / 2 + 30, 200, comfortaaMedium, battery, Graphics.TEXT_JUSTIFY_LEFT);
+
+        dc.drawBitmap(dc.getWidth() / 2 - text_width - 30,200,kcalIcon);
+        dc.setColor(0xFFFFFF,Graphics.COLOR_TRANSPARENT);
+        dc.drawText(dc.getWidth() / 2 - 10, 200, comfortaaMedium, calories, Graphics.TEXT_JUSTIFY_RIGHT);
         // Call the parent onUpdate function to redraw the layout
         // View.onUpdate(dc);
     }

@@ -1,3 +1,4 @@
 <resources>
-    <bitmap id="Flash" filename="flash.png" />
+    <bitmap id="Flash" filename="flash.png" scaleY="80%" />
+    <bitmap id="Kcal" filename="kcal.png" scaleY="80%" />
 </resources>

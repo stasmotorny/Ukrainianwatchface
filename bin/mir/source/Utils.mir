@@ -1,0 +1,188 @@
+[ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 1; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 2; ]
+using Toybox.Lang;
+[ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 4; ]
+module Utils {
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 6; ]
+    function drawIconText(dc, text, x, y, text_color, icon) {
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_6_51_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 7 5 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = lgetv %text_color;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 8 5 ]
+        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_6_51_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_6_51_stop" ]
+        %text_width.1 = local;
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :getTextWidthInPixels;
+        %tmp.9 = "";
+        %tmp.11 = lgetv %text;
+        %tmp.12 = add %tmp.9 %tmp.11;
+        %tmp.13 = getm $.Toybox.Graphics;
+        %tmp.14 = getv %tmp.13 :FONT_SMALL;
+        %tmp.15 = invoke %tmp.7 %tmp.8(%tmp.12, %tmp.14);
+        lputv %text_width.1 %tmp.15;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 10 2 ]
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_2_if_stmt:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_5_begin:
+        %tmp.17 = lgetv %icon;
+        %tmp.18 = null;
+        %tmp.19 = ne %tmp.17 %tmp.18;
+        %tmp.20 = dup %tmp.19;
+        bf %tmp.20 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_19_end;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_19_true:
+        %tmp.22 = lgetv %icon;
+        %tmp.23 = as %tmp.22 { (!Null) };
+        %tmp.24 = getm $.Toybox.WatchUi;
+        %tmp.25 = getv %tmp.24 :BitmapResource;
+        %tmp.26 = isa %tmp.23 %tmp.25;
+        %tmp.27 = and %tmp.19 %tmp.26;
+        push %tmp.27;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_19_end:
+        %tmp.28 = phi [%tmp.20 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_5_begin] [%tmp.27 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_19_true] [%tmp.28 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_19_end];
+        bf %tmp.28 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_2_if_false;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_2_if_true:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_65_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 11 3 ]
+        %tmp.29 = lgetv %dc;
+        %tmp.30 = getv function %tmp.29 :drawText;
+        %tmp.32 = lgetv %x;
+        %tmp.33 = lgetv %icon;
+        %tmp.34 = as %tmp.33 { (Toybox.WatchUi.BitmapResource) && (!Null) };
+        %tmp.35 = getv function %tmp.34 :getWidth;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        %tmp.37 = 2;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        %tmp.39 = add %tmp.32 %tmp.38;
+        %tmp.41 = lgetv %text_width.1;
+        %tmp.42 = 2;
+        %tmp.43 = div %tmp.41 %tmp.42;
+        %tmp.44 = sub %tmp.39 %tmp.43;
+        %tmp.45 = 7;
+        %tmp.46 = add %tmp.44 %tmp.45;
+        %tmp.48 = lgetv %y;
+        %tmp.49 = 2;
+        %tmp.50 = add %tmp.48 %tmp.49;
+        %tmp.51 = getm $.Toybox.Graphics;
+        %tmp.52 = getv %tmp.51 :FONT_SMALL;
+        %tmp.54 = lgetv %text;
+        %tmp.55 = getm $.Toybox.Graphics;
+        %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_VCENTER;
+        %tmp.57 = getm $.Toybox.Graphics;
+        %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_LEFT;
+        %tmp.59 = bitor %tmp.56 %tmp.58;
+        invoke %tmp.29 %tmp.30(%tmp.46, %tmp.50, %tmp.52, %tmp.54, %tmp.59);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 12 3 ]
+        %tmp.60 = lgetv %dc;
+        %tmp.61 = getv function %tmp.60 :drawBitmap;
+        %tmp.63 = lgetv %x;
+        %tmp.64 = lgetv %icon;
+        %tmp.65 = as %tmp.64 { (Toybox.WatchUi.BitmapResource) && (!Null) };
+        %tmp.66 = getv function %tmp.65 :getWidth;
+        %tmp.67 = invoke %tmp.65 %tmp.66();
+        %tmp.68 = 2;
+        %tmp.69 = div %tmp.67 %tmp.68;
+        %tmp.70 = sub %tmp.63 %tmp.69;
+        %tmp.72 = lgetv %text_width.1;
+        %tmp.73 = 2;
+        %tmp.74 = div %tmp.72 %tmp.73;
+        %tmp.75 = sub %tmp.70 %tmp.74;
+        %tmp.77 = lgetv %y;
+        %tmp.78 = lgetv %icon;
+        %tmp.79 = as %tmp.78 { (Toybox.WatchUi.BitmapResource) && (!Null) };
+        %tmp.80 = getv function %tmp.79 :getHeight;
+        %tmp.81 = invoke %tmp.79 %tmp.80();
+        %tmp.82 = 2;
+        %tmp.83 = div %tmp.81 %tmp.82;
+        %tmp.84 = sub %tmp.77 %tmp.83;
+        %tmp.86 = lgetv %icon;
+        %tmp.87 = as %tmp.86 { (Toybox.WatchUi.BitmapResource) && (!Null) };
+        invoke %tmp.60 %tmp.61(%tmp.75, %tmp.84, %tmp.87);
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_65_stop:
+        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_2_if_end;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_2_if_false:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_13_7_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 14 3 ]
+        %tmp.88 = lgetv %dc;
+        %tmp.89 = getv function %tmp.88 :drawText;
+        %tmp.91 = lgetv %x;
+        %tmp.93 = lgetv %text_width.1;
+        %tmp.94 = 2;
+        %tmp.95 = div %tmp.93 %tmp.94;
+        %tmp.96 = sub %tmp.91 %tmp.95;
+        %tmp.97 = 7;
+        %tmp.98 = add %tmp.96 %tmp.97;
+        %tmp.100 = lgetv %y;
+        %tmp.101 = 2;
+        %tmp.102 = add %tmp.100 %tmp.101;
+        %tmp.103 = getm $.Toybox.Graphics;
+        %tmp.104 = getv %tmp.103 :FONT_SMALL;
+        %tmp.106 = lgetv %text;
+        %tmp.107 = getm $.Toybox.Graphics;
+        %tmp.108 = getv %tmp.107 :TEXT_JUSTIFY_VCENTER;
+        %tmp.109 = getm $.Toybox.Graphics;
+        %tmp.110 = getv %tmp.109 :TEXT_JUSTIFY_LEFT;
+        %tmp.111 = bitor %tmp.108 %tmp.110;
+        invoke %tmp.88 %tmp.89(%tmp.98, %tmp.102, %tmp.104, %tmp.106, %tmp.111);
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_13_7_stop:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_10_2_if_end:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_6_51_stop:
+    }
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 18; ]
+    function drawCommentedValue(dc, value, value_color, comment, comment_color, x, y, font) {
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_18_85_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 19 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = lgetv %value_color;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 20 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :drawText;
+        %tmp.10 = lgetv %x;
+        %tmp.12 = lgetv %y;
+        %tmp.14 = lgetv %font;
+        %tmp.16 = lgetv %value;
+        %tmp.17 = getm $.Toybox.Graphics;
+        %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_CENTER;
+        %tmp.19 = getm $.Toybox.Graphics;
+        %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_VCENTER;
+        %tmp.21 = bitor %tmp.18 %tmp.20;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.16, %tmp.21);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 27 8 ]
+        %tmp.22 = lgetv %dc;
+        %tmp.23 = getv function %tmp.22 :setColor;
+        %tmp.25 = lgetv %comment_color;
+        %tmp.26 = getm $.Toybox.Graphics;
+        %tmp.27 = getv %tmp.26 :COLOR_TRANSPARENT;
+        invoke %tmp.22 %tmp.23(%tmp.25, %tmp.27);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 28 8 ]
+        %tmp.28 = lgetv %dc;
+        %tmp.29 = getv function %tmp.28 :drawText;
+        %tmp.31 = lgetv %x;
+        %tmp.33 = lgetv %y;
+        %tmp.34 = 10;
+        %tmp.35 = add %tmp.33 %tmp.34;
+        %tmp.37 = lgetv %font;
+        %tmp.39 = lgetv %comment;
+        %tmp.40 = getm $.Toybox.Graphics;
+        %tmp.41 = getv %tmp.40 :TEXT_JUSTIFY_CENTER;
+        %tmp.42 = getm $.Toybox.Graphics;
+        %tmp.43 = getv %tmp.42 :TEXT_JUSTIFY_VCENTER;
+        %tmp.44 = bitor %tmp.41 %tmp.43;
+        invoke %tmp.28 %tmp.29(%tmp.31, %tmp.35, %tmp.37, %tmp.39, %tmp.44);
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_18_85_stop:
+    }
+}
+[ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 1; ]
+<init> {
+}

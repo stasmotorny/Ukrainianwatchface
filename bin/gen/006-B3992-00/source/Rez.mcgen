@@ -7,12 +7,12 @@ using Toybox.Graphics as Gfx;
 module Rez {
     module Drawables {
         (:initialized) var Flash as Symbol;
+        (:initialized) var Kcal as Symbol;
         (:initialized) var LauncherIcon as Symbol;
     } // Drawables
 
     module Fonts {
-        (:initialized) var comfortaa64 as Symbol;
-        (:initialized) var Comfortaa72BoldSmooth as Symbol;
+        (:initialized) var ComfortaaLarge as Symbol;
         (:initialized) var ComfortaaSmall as Symbol;
         (:initialized) var ComfortaaMedium as Symbol;
     } // Fonts

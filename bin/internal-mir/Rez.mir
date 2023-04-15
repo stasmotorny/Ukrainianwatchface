@@ -21,17 +21,17 @@ module Rez {
         [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var Flash as Symbol;
         [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var Kcal as Symbol;
+        [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 13; ]
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 14; ]
     module Fonts {
-        [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 13; ]
+        [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 14; ]
         <init> {
         }
-        [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
-        var comfortaa64 as Symbol;
         [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
-        var Comfortaa72BoldSmooth as Symbol;
+        var ComfortaaLarge as Symbol;
         [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
         var ComfortaaSmall as Symbol;
         [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\bin\gen\006-B3992-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
