@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\stani\AppData\Local\Temp\export8911106730892567992\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="1" lineNum="6" parent="globals/UkrainianwatchfaceView" pc="268435457" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="4" lineNum="13" parent="globals/UkrainianwatchfaceView" pc="268435476" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="4" lineNum="14" parent="globals/UkrainianwatchfaceView" pc="268435478" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="8" parent="globals/UkrainianwatchfaceView" pc="268435520" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="9" parent="globals/UkrainianwatchfaceView" pc="268435522" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="24" parent="globals/UkrainianwatchfaceView" pc="268435541" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="26" parent="globals/UkrainianwatchfaceView" pc="268435545" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="27" parent="globals/UkrainianwatchfaceView" pc="268435562" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="28" parent="globals/UkrainianwatchfaceView" pc="268435636" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="29" parent="globals/UkrainianwatchfaceView" pc="268435664" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="32" parent="globals/UkrainianwatchfaceView" pc="268435678" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="9" lineNum="26" parent="globals" pc="268435703" symbol="getApp"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="9" lineNum="27" parent="globals" pc="268435713" symbol="getApp"/>
+<entry filename="C:\\Users\\stani\\AppData\\Local\\Temp\\export8911106730892567992\\gen\\006-B3992-00\\source\\Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268435729" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="11" lineNum="5" parent="globals/UkrainianwatchfaceApp" pc="268435753" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="13" lineNum="20" parent="globals/UkrainianwatchfaceApp" pc="268435772" symbol="getInitialView"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="13" lineNum="21" parent="globals/UkrainianwatchfaceApp" pc="268435774" symbol="getInitialView"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="14" lineNum="7" parent="globals/UkrainianwatchfaceApp" pc="268435815" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="14" lineNum="8" parent="globals/UkrainianwatchfaceApp" pc="268435817" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\AppData\\Local\\Temp\\export8911106730892567992\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268435836" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\AppData\\Local\\Temp\\export8911106730892567992\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268435848" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\AppData\\Local\\Temp\\export8911106730892567992\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268435983" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="9" object="true" symbol="UkrainianwatchfaceApp"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389347" symbol="color"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="10" object="true" symbol="UkrainianwatchfaceView"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435519" name="dc" stackId="1" startPc="268435476"/>
+<entry arg="true" endPc="268435702" name="dc" stackId="1" startPc="268435541"/>
+<entry endPc="268435701" name="clockTime" stackId="2" startPc="268435545"/>
+<entry endPc="268435701" name="timeString" stackId="3" startPc="268435545"/>
+<entry endPc="268435701" name="view" stackId="4" startPc="268435545"/>
+<entry arg="true" endPc="268435999" name="dc" stackId="1" startPc="268435836"/>
+<entry endPc="268435999" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268435848"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/UkrainianwatchfaceView" offset="158" parentId="globals" symbolId="UkrainianwatchfaceView" type="class"/>
+<dataEntry label="globals/Rez" offset="253" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/UkrainianwatchfaceApp" offset="332" parentId="globals" symbolId="UkrainianwatchfaceApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="403" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="442" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="481" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="512" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="543" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="582" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="UkrainianwatchfaceView" startPc="268435457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="UkrainianwatchfaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="UkrainianwatchfaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435519" name="onLayout" parent="UkrainianwatchfaceView" startPc="268435476">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="UkrainianwatchfaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435540" name="initialize" parent="UkrainianwatchfaceView" startPc="268435520">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="UkrainianwatchfaceView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435702" name="onUpdate" parent="UkrainianwatchfaceView" startPc="268435541">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435728" name="getApp" startPc="268435703">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435752" name="&lt;init&gt;" parent="Rez" startPc="268435729">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435771" name="&lt;init&gt;" parent="UkrainianwatchfaceApp" startPc="268435753">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="UkrainianwatchfaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435814" name="getInitialView" parent="UkrainianwatchfaceApp" startPc="268435772">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435835" name="initialize" parent="UkrainianwatchfaceApp" startPc="268435815">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="UkrainianwatchfaceApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435999" name="WatchFace" parent="Layouts" startPc="268435836">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

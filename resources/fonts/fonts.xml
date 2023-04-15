@@ -1,0 +1,6 @@
+<fonts>
+    <font id="comfortaa64" antialias="true" filename="Comfortaa64.fnt" filter="0123456789:"/>
+    <font id="Comfortaa72BoldSmooth" filename="Comfortaa72BoldSmooth.fnt"/>
+    <font id="ComfortaaSmall" filename="Comfortaa10.fnt"/>
+    <font id="ComfortaaMedium" filename="Comfortaa17.fnt" /> 
+</fonts>
