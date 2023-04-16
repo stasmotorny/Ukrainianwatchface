@@ -42,4 +42,9 @@
     <string id="mon11Name">November</string>
     <string id="mon12Name">December</string>
 
+    <string id="metresPerSecond">m/s</string>
+    <string id="beatsPerMin">bpm</string>
+    <string id="floors">Floors</string>
+    <string id="steps">Steps</string>
+    <string id="metres">Metres</string>
 </strings>
