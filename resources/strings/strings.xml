@@ -1,3 +1,45 @@
 <strings>
     <string id="AppName">Ukrainian watchface</string>
+    <string id="day0Abbr">Sun</string>
+    <string id="day1Abbr">Mon</string>
+    <string id="day2Abbr">Tue</string>
+    <string id="day3Abbr">Wed</string>
+    <string id="day4Abbr">Thu</string>
+    <string id="day5Abbr">Fri</string>
+    <string id="day6Abbr">Sat</string>
+
+    <string id="day0Name">Sunday</string>
+    <string id="day1Name">Monday</string>
+    <string id="day2Name">Tuesday</string>
+    <string id="day3Name">Wednesday</string>
+    <string id="day4Name">Thursday</string>
+    <string id="day5Name">Friday</string>
+    <string id="day6Name">Saturday</string>
+
+    <string id="mon1Abbr">Jan</string>
+    <string id="mon2Abbr">Feb</string>
+    <string id="mon3Abbr">Mar</string>
+    <string id="mon4Abbr">Apr</string>
+    <string id="mon5Abbr">May</string>
+    <string id="mon6Abbr">Jun</string>
+    <string id="mon7Abbr">Jul</string>
+    <string id="mon8Abbr">Aug</string>
+    <string id="mon9Abbr">Sep</string>
+    <string id="mon10Abbr">Oct</string>
+    <string id="mon11Abbr">Nov</string>
+    <string id="mon12Abbr">Dec</string>
+
+    <string id="mon1Name">January</string>
+    <string id="mon2Name">February</string>
+    <string id="mon3Name">March</string>
+    <string id="mon4Name">April</string>
+    <string id="mon5Name">May</string>
+    <string id="mon6Name">June</string>
+    <string id="mon7Name">July</string>
+    <string id="mon8Name">August</string>
+    <string id="mon9Name">September</string>
+    <string id="mon10Name">October</string>
+    <string id="mon11Name">November</string>
+    <string id="mon12Name">December</string>
+
 </strings>

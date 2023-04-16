@@ -1,0 +1,45 @@
+<strings>
+    <string id="AppName">Український вотчфейс</string>
+    <string id="day0Abbr">Нд</string>
+    <string id="day1Abbr">Пн</string>
+    <string id="day2Abbr">Вт</string>
+    <string id="day3Abbr">Ср</string>
+    <string id="day4Abbr">Чт</string>
+    <string id="day5Abbr">Пт</string>
+    <string id="day6Abbr">Сб</string>
+
+    <string id="day0Name">Неділя</string>
+    <string id="day1Name">Понеділок</string>
+    <string id="day2Name">Вівторок</string>
+    <string id="day3Name">Середа</string>
+    <string id="day4Name">Четвер</string>
+    <string id="day5Name">П'ятниця</string>
+    <string id="day6Name">Субота</string>
+
+    <string id="mon1Abbr">Січ</string>
+    <string id="mon2Abbr">Лют</string>
+    <string id="mon3Abbr">Бер</string>
+    <string id="mon4Abbr">Кві</string>
+    <string id="mon5Abbr">Тра</string>
+    <string id="mon6Abbr">Чер</string>
+    <string id="mon7Abbr">Лип</string>
+    <string id="mon8Abbr">Сер</string>
+    <string id="mon9Abbr">Вер</string>
+    <string id="mon10Abbr">Жов</string>
+    <string id="mon11Abbr">Лис</string>
+    <string id="mon12Abbr">Гру</string>
+
+    <string id="mon1Name">Січень</string>
+    <string id="mon2Name">Лютий</string>
+    <string id="mon3Name">Березень</string>
+    <string id="mon4Name">Квітень</string>
+    <string id="mon5Name">Травень</string>
+    <string id="mon6Name">Червень</string>
+    <string id="mon7Name">Липень</string>
+    <string id="mon8Name">Серпень</string>
+    <string id="mon9Name">Вересень</string>
+    <string id="mon10Name">Жовтень</string>
+    <string id="mon11Name">Листопад</string>
+    <string id="mon12Name">Грудень</string>
+
+</strings>
