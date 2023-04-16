@@ -42,4 +42,9 @@
     <string id="mon11Name">Листопад</string>
     <string id="mon12Name">Грудень</string>
 
+    <string id="metresPerSecond">м/с</string>
+    <string id="beatsPerMin">уд./хв.</string>
+    <string id="floors">Поверхи</string>
+    <string id="steps">Кроки</string>
+    <string id="metres">Метри</string>
 </strings>

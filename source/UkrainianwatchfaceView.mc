@@ -15,10 +15,15 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var comfortaaMedium = null;
     var flashIcon;
     var kcalIcon;
-    var fullDayNames;
-    var shortDayNames;
-    var fullMonthNames;
-    var shortMonthNames;
+    var fullDayNames as Array<Lang.String> or Null;
+    var shortDayNames as Array<String> or Null;
+    var fullMonthNames as Array<String> or Null;
+    var shortMonthNames as Array<String> or Null;
+    var metresPerSecond;
+    var beatsPerMinute;
+    var floors;
+    var steps;
+    var metres;
 
     function initialize() {
         WatchFace.initialize();
@@ -31,6 +36,11 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         comfortaaMedium=WatchUi.loadResource(Rez.Fonts.ComfortaaMedium);
         flashIcon = Ui.loadResource(Rez.Drawables.Flash);
         kcalIcon = Ui.loadResource(Rez.Drawables.Kcal);
+        metresPerSecond = Ui.loadResource(Rez.Strings.metresPerSecond);
+        beatsPerMinute = Ui.loadResource(Rez.Strings.beatsPerMin);
+        floors = Ui.loadResource(Rez.Strings.floors);
+        steps = Ui.loadResource(Rez.Strings.steps);
+        metres = Ui.loadResource(Rez.Strings.metres);
 
         fullDayNames = [
             Ui.loadResource(Rez.Strings.day0Name),
@@ -97,12 +107,14 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         //Weather block
         var currentTemperature = Weather.getCurrentConditions().temperature;
+        var currentWindSpeed = Weather.getCurrentConditions().windSpeed.toNumber();
+        var precipitationChanceForecast = Weather.getCurrentConditions().precipitationChance;
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
         dc.drawText(
             dc.getWidth() / 2,
-            (dc.getHeight() - hours_height - hours_height - 12) / 4 - 10,
+            (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
             comfortaaMedium,
-            Lang.format("$1$°C", [currentTemperature]),
+            Lang.format("$1$°C | $2$$4$ | $3$%", [currentTemperature, currentWindSpeed, precipitationChanceForecast, metresPerSecond]),
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         );
 
@@ -111,16 +123,15 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var dateString = Lang.format(
             "$1$ $2$ $3$",
             [
-                // today.day_of_week,
                 fullDayNames[today.day_of_week - 1],
                 today.day,
-                shortMonthNames[today.month - 1],
+                shortMonthNames[today.month - 1]
             ]
         );
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
         dc.drawText(
             dc.getWidth() / 2,
-            (dc.getHeight() - hours_height * 2 - 12) / 4 + 10,
+            (dc.getHeight() - hours_height * 2 - 12) / 4 - 10,
             comfortaaMedium,
             dateString,
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
@@ -140,7 +151,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
             dc,
             currentHeartrate,
             0x007BFF,
-            "уд./хв.",
+            beatsPerMinute,
             0x979595,
             (dc.getWidth() - hours_width) / 4,
             dc.getHeight() / 2 - hours_height / 2 - 17,
@@ -153,7 +164,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
             dc,
             stepCount,
             0xFFFF00,
-            "Крок.",
+            steps,
             0x979595,
             (dc.getWidth() - hours_width) / 4,
             dc.getHeight() / 2 + hours_height / 2 + 8,
@@ -166,7 +177,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
             dc,
             currentAltitude,
             0xFFFF00,
-            "Метр.",
+            metres,
             0x979595,
             (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
             dc.getHeight() / 2 + hours_height / 2 + 8,
@@ -179,7 +190,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
             dc,
             floorsClimbed,
             0x007BFF,
-            "Пов.",
+            floors,
             0x979595,
             (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
             dc.getHeight() / 2 - hours_height / 2 - 17,
