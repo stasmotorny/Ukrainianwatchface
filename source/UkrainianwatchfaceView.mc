@@ -146,16 +146,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         //Heart data
         var currentHeartrate = Activity.getActivityInfo().currentHeartRate;
-        Utils.drawCommentedValue(
-            dc,
-            currentHeartrate,
-            0x007BFF,
-            beatsPerMinute,
-            0x979595,
-            (dc.getWidth() - hours_width) / 4,
-            dc.getHeight() / 2 - hours_height / 2 - 17,
-            comfortaaSmall
-        );
+        Utils.renderHeartrate(currentHeartrate, dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall);
 
         //Steps data block
         var stepCount = Mon.getInfo().steps.toString();
