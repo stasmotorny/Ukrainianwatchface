@@ -182,6 +182,82 @@ C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_1
         invoke %tmp.28 %tmp.29(%tmp.31, %tmp.35, %tmp.37, %tmp.39, %tmp.44);
 C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_18_85_stop:
     }
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 37; ]
+    function renderHeartrate(heartrate, dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall) {
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_37_103_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 38 8 ]
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_8_if_stmt:
+        %tmp.2 = lgetv %heartrate;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_8_if_false;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_8_if_true:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_31_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 39 12 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :drawCommentedValue;
+        %tmp.8 = lgetv %dc;
+        %tmp.10 = lgetv %heartrate;
+        %tmp.11 = as %tmp.10 { (!Null) };
+        %tmp.12 = 0x007BFF;
+        %tmp.14 = lgetv %beatsPerMinute;
+        %tmp.15 = 0x979595;
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = getv function %tmp.16 :getWidth;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        %tmp.20 = lgetv %hours_width;
+        %tmp.21 = sub %tmp.18 %tmp.20;
+        %tmp.22 = 4;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        %tmp.24 = lgetv %dc;
+        %tmp.25 = getv function %tmp.24 :getHeight;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = 2;
+        %tmp.28 = div %tmp.26 %tmp.27;
+        %tmp.30 = lgetv %hours_height;
+        %tmp.31 = 2;
+        %tmp.32 = div %tmp.30 %tmp.31;
+        %tmp.33 = sub %tmp.28 %tmp.32;
+        %tmp.34 = 17;
+        %tmp.35 = sub %tmp.33 %tmp.34;
+        %tmp.37 = lgetv %comfortaaSmall;
+        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.11, %tmp.12, %tmp.14, %tmp.15, %tmp.23, %tmp.35, %tmp.37);
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_31_stop:
+        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_8_if_end;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_8_if_false:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_49_15_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc" 50 12 ]
+        %tmp.38 = self;
+        %tmp.39 = getv function %tmp.38 :drawCommentedValue;
+        %tmp.41 = lgetv %dc;
+        %tmp.42 = "";
+        %tmp.43 = 0x007BFF;
+        %tmp.45 = lgetv %beatsPerMinute;
+        %tmp.46 = 0x979595;
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :getWidth;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        %tmp.51 = lgetv %hours_width;
+        %tmp.52 = sub %tmp.49 %tmp.51;
+        %tmp.53 = 4;
+        %tmp.54 = div %tmp.52 %tmp.53;
+        %tmp.55 = lgetv %dc;
+        %tmp.56 = getv function %tmp.55 :getHeight;
+        %tmp.57 = invoke %tmp.55 %tmp.56();
+        %tmp.58 = 2;
+        %tmp.59 = div %tmp.57 %tmp.58;
+        %tmp.61 = lgetv %hours_height;
+        %tmp.62 = 2;
+        %tmp.63 = div %tmp.61 %tmp.62;
+        %tmp.64 = sub %tmp.59 %tmp.63;
+        %tmp.65 = 17;
+        %tmp.66 = sub %tmp.64 %tmp.65;
+        %tmp.68 = lgetv %comfortaaSmall;
+        invoke %tmp.38 %tmp.39(%tmp.41, %tmp.42, %tmp.43, %tmp.45, %tmp.46, %tmp.54, %tmp.66, %tmp.68);
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_49_15_stop:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_38_8_if_end:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Utils_mc_37_103_stop:
+    }
 }
 [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\Utils.mc"; @line = 1; ]
 <init> {

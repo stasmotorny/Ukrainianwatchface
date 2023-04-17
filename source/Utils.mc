@@ -34,4 +34,29 @@ module Utils{
         );
     }
 	
+    function renderHeartrate(heartrate, dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall) {
+        if (heartrate != null) {
+            drawCommentedValue(
+                dc,
+                heartrate,
+                0x007BFF,
+                beatsPerMinute,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4,
+                dc.getHeight() / 2 - hours_height / 2 - 17,
+                comfortaaSmall
+            );
+        } else {
+            drawCommentedValue(
+                dc,
+                "",
+                0x007BFF,
+                beatsPerMinute,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4,
+                dc.getHeight() / 2 - hours_height / 2 - 17,
+                comfortaaSmall
+            );
+        }
+    }
 }
