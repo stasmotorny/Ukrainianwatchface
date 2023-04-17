@@ -145,7 +145,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 + 30, comfortaaLarge, Lang.format("$1$", [clockTime.min.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         //Heart data
-        var currentHeartrate = Activity.getActivityInfo().currentHeartRate.toString();
+        var currentHeartrate = Activity.getActivityInfo().currentHeartRate;
         Utils.drawCommentedValue(
             dc,
             currentHeartrate,
