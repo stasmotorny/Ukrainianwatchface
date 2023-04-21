@@ -110,13 +110,24 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var currentWindSpeed = Weather.getCurrentConditions().windSpeed.toNumber();
         var precipitationChanceForecast = Weather.getCurrentConditions().precipitationChance;
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(
-            dc.getWidth() / 2,
-            (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
-            comfortaaMedium,
-            Lang.format("$1$°C | $2$$4$ | $3$%", [currentTemperature, currentWindSpeed, precipitationChanceForecast, metresPerSecond]),
-            Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        );
+        if (currentTemperature != null && currentTemperature != null && currentTemperature != null) {
+            dc.drawText(
+                dc.getWidth() / 2,
+                (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
+                comfortaaMedium,
+                Lang.format("$1$°C | $2$$4$ | $3$%", [currentTemperature, currentWindSpeed, precipitationChanceForecast, metresPerSecond]),
+                Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+            );
+        } else {
+            dc.drawText(
+                dc.getWidth() / 2,
+                (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
+                comfortaaMedium,
+                Lang.format("$1$°C | $2$$4$ | $3$%", [0, 0, 0, metresPerSecond]),
+                Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+            );
+        }
+       
 
         // Date block
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
@@ -146,50 +157,95 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         //Heart data
         var currentHeartrate = Activity.getActivityInfo().currentHeartRate;
-        Utils.renderHeartrate(currentHeartrate, dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall);
+        if (currentHeartrate != null) {
+            Utils.renderHeartrate(currentHeartrate, dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall);
+        } else {
+            Utils.renderHeartrate("0", dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall);
+        }
+        
 
         //Steps data block
-        var stepCount = Mon.getInfo().steps.toString();
-        Utils.drawCommentedValue(
-            dc,
-            stepCount,
-            0xFFFF00,
-            steps,
-            0x979595,
-            (dc.getWidth() - hours_width) / 4,
-            dc.getHeight() / 2 + hours_height / 2 + 8,
-            comfortaaSmall
-        );
+        var stepCount = Mon.getInfo().steps;
+        if (stepCount != null) {
+            Utils.drawCommentedValue(
+                dc,
+                stepCount.toString(),
+                0xFFFF00,
+                steps,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4,
+                dc.getHeight() / 2 + hours_height / 2 + 8,
+                comfortaaSmall
+            );
+        } else {
+            Utils.drawCommentedValue(
+                dc,
+                "0",
+                0xFFFF00,
+                steps,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4,
+                dc.getHeight() / 2 + hours_height / 2 + 8,
+                comfortaaSmall
+            );
+        }
+        
 
         //Altitude data block
-        var currentAltitude = Activity.getActivityInfo().altitude.toNumber().toString();
-        Utils.drawCommentedValue(
-            dc,
-            currentAltitude,
-            0xFFFF00,
-            metres,
-            0x979595,
-            (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
-            dc.getHeight() / 2 + hours_height / 2 + 8,
-            comfortaaSmall
-        );
+        var currentAltitude = Activity.getActivityInfo().altitude;
+        if (currentAltitude != null) {
+            Utils.drawCommentedValue(
+                dc,
+                currentAltitude.toNumber().toString(),
+                0xFFFF00,
+                metres,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
+                dc.getHeight() / 2 + hours_height / 2 + 8,
+                comfortaaSmall
+            );
+        } else {
+            Utils.drawCommentedValue(
+                dc,
+                "0",
+                0xFFFF00,
+                metres,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
+                dc.getHeight() / 2 + hours_height / 2 + 8,
+                comfortaaSmall
+            );
+        }
 
         //Floors data block
-        var floorsClimbed = Mon.getInfo().floorsClimbed.toString();
-        Utils.drawCommentedValue(
-            dc,
-            floorsClimbed,
-            0x007BFF,
-            floors,
-            0x979595,
-            (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
-            dc.getHeight() / 2 - hours_height / 2 - 17,
-            comfortaaSmall
-        );
+        var floorsClimbed = Mon.getInfo().floorsClimbed;
+        if (floorsClimbed != null) {
+            Utils.drawCommentedValue(
+                dc,
+                floorsClimbed.toString(),
+                0x007BFF,
+                floors,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
+                dc.getHeight() / 2 - hours_height / 2 - 17,
+                comfortaaSmall
+            );
+        } else {
+            Utils.drawCommentedValue(
+                dc,
+                "0",
+                0x007BFF,
+                floors,
+                0x979595,
+                (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
+                dc.getHeight() / 2 - hours_height / 2 - 17,
+                comfortaaSmall
+            );
+        }
 
         //Bottom block
         var battery = System.getSystemStats().battery.toNumber().toString() + "%";
-        var calories = Mon.getInfo().calories.toString();
+        var calories = Mon.getInfo().calories;
         var text_width = dc.getTextWidthInPixels(""+calories,comfortaaMedium);
         var y = (dc.getHeight() - hours_height - hours_height - 12) / 4 * 3 + hours_height + hours_height + 12;
         dc.drawBitmap(dc.getWidth() / 2 + 10,y,flashIcon);
@@ -198,7 +254,11 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         dc.drawBitmap(dc.getWidth() / 2 - text_width - 30,y,kcalIcon);
         dc.setColor(0xFFFFFF,Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth() / 2 - 10, y, comfortaaMedium, calories, Graphics.TEXT_JUSTIFY_RIGHT);
+        if (calories != null) {
+            dc.drawText(dc.getWidth() / 2 - 10, y, comfortaaMedium, calories.toString(), Graphics.TEXT_JUSTIFY_RIGHT);
+        } else {
+            dc.drawText(dc.getWidth() / 2 - 10, y, comfortaaMedium, "0", Graphics.TEXT_JUSTIFY_RIGHT);
+        }
         // Call the parent onUpdate function to redraw the layout
         // View.onUpdate(dc);
     }
