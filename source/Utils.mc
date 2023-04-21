@@ -17,13 +17,23 @@ module Utils{
 
     function drawCommentedValue(dc,value,value_color,comment,comment_color,x,y, font){
         dc.setColor(value_color,Gfx.COLOR_TRANSPARENT);
-        dc.drawText(
-            x,
-            y,
-            font,
-            value,
-            Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER
-        );
+        if (value != null) {
+            dc.drawText(
+                x,
+                y,
+                font,
+                value,
+                Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER
+            );
+        } else {
+            dc.drawText(
+                x,
+                y,
+                font,
+                "0",
+                Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER
+            );
+        }
         dc.setColor(comment_color,Gfx.COLOR_TRANSPARENT);
         dc.drawText(
             x,
