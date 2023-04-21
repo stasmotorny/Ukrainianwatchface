@@ -670,473 +670,311 @@ C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_Ukrainianw
         %tmp.333 = getv %tmp.332 :currentHeartRate;
         lputv %currentHeartrate.11 %tmp.333;
 [ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 132 8 ]
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_8_if_stmt:
-        %tmp.335 = lgetv %currentHeartrate.11;
-        %tmp.336 = null;
-        %tmp.337 = ne %tmp.335 %tmp.336;
-        bf %tmp.337 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_8_if_false;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_8_if_true:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_38_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 133 12 ]
-        %tmp.339 = getv ? :Utils;
-        %tmp.340 = getv function %tmp.339 :renderHeartrate;
-        %tmp.342 = lgetv %currentHeartrate.11;
-        %tmp.343 = as %tmp.342 { (!Null) };
-        %tmp.345 = lgetv %dc;
-        %tmp.347 = getv ? :beatsPerMinute;
-        %tmp.349 = lgetv %hours_width.1;
-        %tmp.351 = lgetv %hours_height.2;
-        %tmp.353 = getv ? :comfortaaSmall;
-        invoke %tmp.339 %tmp.340(%tmp.343, %tmp.345, %tmp.347, %tmp.349, %tmp.351, %tmp.353);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_38_stop:
-        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_8_if_end;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_8_if_false:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_134_15_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 135 12 ]
-        %tmp.355 = getv ? :Utils;
-        %tmp.356 = getv function %tmp.355 :renderHeartrate;
-        %tmp.357 = "0";
-        %tmp.359 = lgetv %dc;
-        %tmp.361 = getv ? :beatsPerMinute;
-        %tmp.363 = lgetv %hours_width.1;
-        %tmp.365 = lgetv %hours_height.2;
-        %tmp.367 = getv ? :comfortaaSmall;
-        invoke %tmp.355 %tmp.356(%tmp.357, %tmp.359, %tmp.361, %tmp.363, %tmp.365, %tmp.367);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_134_15_stop:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_132_8_if_end:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 140 8 ]
+        %tmp.335 = getv ? :Utils;
+        %tmp.336 = getv function %tmp.335 :renderHeartrate;
+        %tmp.338 = lgetv %currentHeartrate.11;
+        %tmp.340 = lgetv %dc;
+        %tmp.342 = getv ? :beatsPerMinute;
+        %tmp.344 = lgetv %hours_width.1;
+        %tmp.346 = lgetv %hours_height.2;
+        %tmp.348 = getv ? :comfortaaSmall;
+        invoke %tmp.335 %tmp.336(%tmp.338, %tmp.340, %tmp.342, %tmp.344, %tmp.346, %tmp.348);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 135 8 ]
         [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
         %stepCount.12 = local;
-        %tmp.368 = getm $.Toybox.ActivityMonitor;
-        %tmp.369 = getv function %tmp.368 :getInfo;
-        %tmp.370 = invoke %tmp.368 %tmp.369();
-        %tmp.371 = getv %tmp.370 :steps;
-        lputv %stepCount.12 %tmp.371;
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 141 8 ]
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_8_if_stmt:
-        %tmp.373 = lgetv %stepCount.12;
-        %tmp.374 = null;
-        %tmp.375 = ne %tmp.373 %tmp.374;
-        bf %tmp.375 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_8_if_false;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_8_if_true:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_31_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 142 12 ]
-        %tmp.377 = getv ? :Utils;
-        %tmp.378 = getv function %tmp.377 :drawCommentedValue;
-        %tmp.380 = lgetv %dc;
-        %tmp.381 = lgetv %stepCount.12;
-        %tmp.382 = as %tmp.381 { (!Null) };
-        %tmp.383 = getv function %tmp.382 :toString;
-        %tmp.384 = invoke %tmp.382 %tmp.383();
-        %tmp.385 = 0xFFFF00;
-        %tmp.387 = getv ? :steps;
-        %tmp.388 = 0x979595;
-        %tmp.389 = lgetv %dc;
-        %tmp.390 = getv function %tmp.389 :getWidth;
-        %tmp.391 = invoke %tmp.389 %tmp.390();
-        %tmp.393 = lgetv %hours_width.1;
-        %tmp.394 = sub %tmp.391 %tmp.393;
-        %tmp.395 = 4;
-        %tmp.396 = div %tmp.394 %tmp.395;
-        %tmp.397 = lgetv %dc;
-        %tmp.398 = getv function %tmp.397 :getHeight;
-        %tmp.399 = invoke %tmp.397 %tmp.398();
-        %tmp.400 = 2;
-        %tmp.401 = div %tmp.399 %tmp.400;
-        %tmp.403 = lgetv %hours_height.2;
-        %tmp.404 = 2;
-        %tmp.405 = div %tmp.403 %tmp.404;
-        %tmp.406 = add %tmp.401 %tmp.405;
-        %tmp.407 = 8;
-        %tmp.408 = add %tmp.406 %tmp.407;
-        %tmp.410 = getv ? :comfortaaSmall;
-        invoke %tmp.377 %tmp.378(%tmp.380, %tmp.384, %tmp.385, %tmp.387, %tmp.388, %tmp.396, %tmp.408, %tmp.410);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_31_stop:
-        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_8_if_end;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_8_if_false:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_152_15_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 153 12 ]
-        %tmp.412 = getv ? :Utils;
-        %tmp.413 = getv function %tmp.412 :drawCommentedValue;
-        %tmp.415 = lgetv %dc;
-        %tmp.416 = "0";
-        %tmp.417 = 0xFFFF00;
-        %tmp.419 = getv ? :steps;
-        %tmp.420 = 0x979595;
-        %tmp.421 = lgetv %dc;
-        %tmp.422 = getv function %tmp.421 :getWidth;
-        %tmp.423 = invoke %tmp.421 %tmp.422();
-        %tmp.425 = lgetv %hours_width.1;
-        %tmp.426 = sub %tmp.423 %tmp.425;
-        %tmp.427 = 4;
-        %tmp.428 = div %tmp.426 %tmp.427;
-        %tmp.429 = lgetv %dc;
-        %tmp.430 = getv function %tmp.429 :getHeight;
-        %tmp.431 = invoke %tmp.429 %tmp.430();
-        %tmp.432 = 2;
-        %tmp.433 = div %tmp.431 %tmp.432;
-        %tmp.435 = lgetv %hours_height.2;
-        %tmp.436 = 2;
-        %tmp.437 = div %tmp.435 %tmp.436;
-        %tmp.438 = add %tmp.433 %tmp.437;
-        %tmp.439 = 8;
-        %tmp.440 = add %tmp.438 %tmp.439;
-        %tmp.442 = getv ? :comfortaaSmall;
-        invoke %tmp.412 %tmp.413(%tmp.415, %tmp.416, %tmp.417, %tmp.419, %tmp.420, %tmp.428, %tmp.440, %tmp.442);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_152_15_stop:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_141_8_if_end:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 167 8 ]
+        %tmp.349 = getm $.Toybox.ActivityMonitor;
+        %tmp.350 = getv function %tmp.349 :getInfo;
+        %tmp.351 = invoke %tmp.349 %tmp.350();
+        %tmp.352 = getv %tmp.351 :steps;
+        lputv %stepCount.12 %tmp.352;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 136 8 ]
+        %tmp.354 = getv ? :Utils;
+        %tmp.355 = getv function %tmp.354 :drawCommentedValue;
+        %tmp.357 = lgetv %dc;
+        %tmp.358 = lgetv %stepCount.12;
+        %tmp.359 = getv function %tmp.358 :toString;
+        %tmp.360 = invoke %tmp.358 %tmp.359();
+        %tmp.361 = 0xFFFF00;
+        %tmp.363 = getv ? :steps;
+        %tmp.364 = 0x979595;
+        %tmp.365 = lgetv %dc;
+        %tmp.366 = getv function %tmp.365 :getWidth;
+        %tmp.367 = invoke %tmp.365 %tmp.366();
+        %tmp.369 = lgetv %hours_width.1;
+        %tmp.370 = sub %tmp.367 %tmp.369;
+        %tmp.371 = 4;
+        %tmp.372 = div %tmp.370 %tmp.371;
+        %tmp.373 = lgetv %dc;
+        %tmp.374 = getv function %tmp.373 :getHeight;
+        %tmp.375 = invoke %tmp.373 %tmp.374();
+        %tmp.376 = 2;
+        %tmp.377 = div %tmp.375 %tmp.376;
+        %tmp.379 = lgetv %hours_height.2;
+        %tmp.380 = 2;
+        %tmp.381 = div %tmp.379 %tmp.380;
+        %tmp.382 = add %tmp.377 %tmp.381;
+        %tmp.383 = 8;
+        %tmp.384 = add %tmp.382 %tmp.383;
+        %tmp.386 = getv ? :comfortaaSmall;
+        invoke %tmp.354 %tmp.355(%tmp.357, %tmp.360, %tmp.361, %tmp.363, %tmp.364, %tmp.372, %tmp.384, %tmp.386);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 148 8 ]
         [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
         %currentAltitude.13 = local;
-        %tmp.443 = getm $.Toybox.Activity;
-        %tmp.444 = getv function %tmp.443 :getActivityInfo;
-        %tmp.445 = invoke %tmp.443 %tmp.444();
-        %tmp.446 = getv %tmp.445 :altitude;
-        lputv %currentAltitude.13 %tmp.446;
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 168 8 ]
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_8_if_stmt:
-        %tmp.448 = lgetv %currentAltitude.13;
-        %tmp.449 = null;
-        %tmp.450 = ne %tmp.448 %tmp.449;
-        bf %tmp.450 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_8_if_false;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_8_if_true:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_37_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 169 12 ]
-        %tmp.452 = getv ? :Utils;
-        %tmp.453 = getv function %tmp.452 :drawCommentedValue;
-        %tmp.455 = lgetv %dc;
-        %tmp.456 = lgetv %currentAltitude.13;
-        %tmp.457 = as %tmp.456 { (!Null) };
-        %tmp.458 = getv function %tmp.457 :toNumber;
-        %tmp.459 = invoke %tmp.457 %tmp.458();
-        %tmp.460 = getv function %tmp.459 :toString;
-        %tmp.461 = invoke %tmp.459 %tmp.460();
-        %tmp.462 = 0xFFFF00;
-        %tmp.464 = getv ? :metres;
-        %tmp.465 = 0x979595;
-        %tmp.466 = lgetv %dc;
-        %tmp.467 = getv function %tmp.466 :getWidth;
-        %tmp.468 = invoke %tmp.466 %tmp.467();
-        %tmp.470 = lgetv %hours_width.1;
-        %tmp.471 = sub %tmp.468 %tmp.470;
-        %tmp.472 = 4;
-        %tmp.473 = div %tmp.471 %tmp.472;
-        %tmp.474 = 3;
-        %tmp.475 = mul %tmp.473 %tmp.474;
-        %tmp.477 = lgetv %hours_width.1;
-        %tmp.478 = add %tmp.475 %tmp.477;
-        %tmp.479 = lgetv %dc;
-        %tmp.480 = getv function %tmp.479 :getHeight;
-        %tmp.481 = invoke %tmp.479 %tmp.480();
-        %tmp.482 = 2;
-        %tmp.483 = div %tmp.481 %tmp.482;
-        %tmp.485 = lgetv %hours_height.2;
-        %tmp.486 = 2;
-        %tmp.487 = div %tmp.485 %tmp.486;
-        %tmp.488 = add %tmp.483 %tmp.487;
-        %tmp.489 = 8;
-        %tmp.490 = add %tmp.488 %tmp.489;
-        %tmp.492 = getv ? :comfortaaSmall;
-        invoke %tmp.452 %tmp.453(%tmp.455, %tmp.461, %tmp.462, %tmp.464, %tmp.465, %tmp.478, %tmp.490, %tmp.492);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_37_stop:
-        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_8_if_end;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_8_if_false:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_179_15_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 180 12 ]
-        %tmp.494 = getv ? :Utils;
-        %tmp.495 = getv function %tmp.494 :drawCommentedValue;
-        %tmp.497 = lgetv %dc;
-        %tmp.498 = "0";
-        %tmp.499 = 0xFFFF00;
-        %tmp.501 = getv ? :metres;
-        %tmp.502 = 0x979595;
-        %tmp.503 = lgetv %dc;
-        %tmp.504 = getv function %tmp.503 :getWidth;
-        %tmp.505 = invoke %tmp.503 %tmp.504();
-        %tmp.507 = lgetv %hours_width.1;
-        %tmp.508 = sub %tmp.505 %tmp.507;
+        %tmp.387 = getm $.Toybox.Activity;
+        %tmp.388 = getv function %tmp.387 :getActivityInfo;
+        %tmp.389 = invoke %tmp.387 %tmp.388();
+        %tmp.390 = getv %tmp.389 :altitude;
+        lputv %currentAltitude.13 %tmp.390;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 149 8 ]
+        %tmp.392 = getv ? :Utils;
+        %tmp.393 = getv function %tmp.392 :drawCommentedValue;
+        %tmp.395 = lgetv %dc;
+        %tmp.396 = lgetv %currentAltitude.13;
+        %tmp.397 = getv function %tmp.396 :toNumber;
+        %tmp.398 = invoke %tmp.396 %tmp.397();
+        %tmp.399 = getv function %tmp.398 :toString;
+        %tmp.400 = invoke %tmp.398 %tmp.399();
+        %tmp.401 = 0xFFFF00;
+        %tmp.403 = getv ? :metres;
+        %tmp.404 = 0x979595;
+        %tmp.405 = lgetv %dc;
+        %tmp.406 = getv function %tmp.405 :getWidth;
+        %tmp.407 = invoke %tmp.405 %tmp.406();
+        %tmp.409 = lgetv %hours_width.1;
+        %tmp.410 = sub %tmp.407 %tmp.409;
+        %tmp.411 = 4;
+        %tmp.412 = div %tmp.410 %tmp.411;
+        %tmp.413 = 3;
+        %tmp.414 = mul %tmp.412 %tmp.413;
+        %tmp.416 = lgetv %hours_width.1;
+        %tmp.417 = add %tmp.414 %tmp.416;
+        %tmp.418 = lgetv %dc;
+        %tmp.419 = getv function %tmp.418 :getHeight;
+        %tmp.420 = invoke %tmp.418 %tmp.419();
+        %tmp.421 = 2;
+        %tmp.422 = div %tmp.420 %tmp.421;
+        %tmp.424 = lgetv %hours_height.2;
+        %tmp.425 = 2;
+        %tmp.426 = div %tmp.424 %tmp.425;
+        %tmp.427 = add %tmp.422 %tmp.426;
+        %tmp.428 = 8;
+        %tmp.429 = add %tmp.427 %tmp.428;
+        %tmp.431 = getv ? :comfortaaSmall;
+        invoke %tmp.392 %tmp.393(%tmp.395, %tmp.400, %tmp.401, %tmp.403, %tmp.404, %tmp.417, %tmp.429, %tmp.431);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 161 8 ]
+        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
+        %floorsClimbed.14 = local;
+        %tmp.432 = getm $.Toybox.ActivityMonitor;
+        %tmp.433 = getv function %tmp.432 :getInfo;
+        %tmp.434 = invoke %tmp.432 %tmp.433();
+        %tmp.435 = getv %tmp.434 :floorsClimbed;
+        lputv %floorsClimbed.14 %tmp.435;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 162 8 ]
+        %tmp.437 = getv ? :Utils;
+        %tmp.438 = getv function %tmp.437 :drawCommentedValue;
+        %tmp.440 = lgetv %dc;
+        %tmp.441 = lgetv %floorsClimbed.14;
+        %tmp.442 = getv function %tmp.441 :toString;
+        %tmp.443 = invoke %tmp.441 %tmp.442();
+        %tmp.444 = 0x007BFF;
+        %tmp.446 = getv ? :floors;
+        %tmp.447 = 0x979595;
+        %tmp.448 = lgetv %dc;
+        %tmp.449 = getv function %tmp.448 :getWidth;
+        %tmp.450 = invoke %tmp.448 %tmp.449();
+        %tmp.452 = lgetv %hours_width.1;
+        %tmp.453 = sub %tmp.450 %tmp.452;
+        %tmp.454 = 4;
+        %tmp.455 = div %tmp.453 %tmp.454;
+        %tmp.456 = 3;
+        %tmp.457 = mul %tmp.455 %tmp.456;
+        %tmp.459 = lgetv %hours_width.1;
+        %tmp.460 = add %tmp.457 %tmp.459;
+        %tmp.461 = lgetv %dc;
+        %tmp.462 = getv function %tmp.461 :getHeight;
+        %tmp.463 = invoke %tmp.461 %tmp.462();
+        %tmp.464 = 2;
+        %tmp.465 = div %tmp.463 %tmp.464;
+        %tmp.467 = lgetv %hours_height.2;
+        %tmp.468 = 2;
+        %tmp.469 = div %tmp.467 %tmp.468;
+        %tmp.470 = sub %tmp.465 %tmp.469;
+        %tmp.471 = 17;
+        %tmp.472 = sub %tmp.470 %tmp.471;
+        %tmp.474 = getv ? :comfortaaSmall;
+        invoke %tmp.437 %tmp.438(%tmp.440, %tmp.443, %tmp.444, %tmp.446, %tmp.447, %tmp.460, %tmp.472, %tmp.474);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 174 8 ]
+        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
+        %battery.15 = local;
+        %tmp.475 = getm $.Toybox.System;
+        %tmp.476 = getv function %tmp.475 :getSystemStats;
+        %tmp.477 = invoke %tmp.475 %tmp.476();
+        %tmp.478 = getv %tmp.477 :battery;
+        %tmp.479 = getv function %tmp.478 :toNumber;
+        %tmp.480 = invoke %tmp.478 %tmp.479();
+        %tmp.481 = getv function %tmp.480 :toString;
+        %tmp.482 = invoke %tmp.480 %tmp.481();
+        %tmp.483 = "%";
+        %tmp.484 = add %tmp.482 %tmp.483;
+        lputv %battery.15 %tmp.484;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 175 8 ]
+        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
+        %calories.16 = local;
+        %tmp.485 = getm $.Toybox.ActivityMonitor;
+        %tmp.486 = getv function %tmp.485 :getInfo;
+        %tmp.487 = invoke %tmp.485 %tmp.486();
+        %tmp.488 = getv %tmp.487 :calories;
+        lputv %calories.16 %tmp.488;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 176 8 ]
+        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
+        %text_width.17 = local;
+        %tmp.489 = lgetv %dc;
+        %tmp.490 = getv function %tmp.489 :getTextWidthInPixels;
+        %tmp.491 = "";
+        %tmp.493 = lgetv %calories.16;
+        %tmp.494 = add %tmp.491 %tmp.493;
+        %tmp.496 = getv ? :comfortaaMedium;
+        %tmp.497 = invoke %tmp.489 %tmp.490(%tmp.494, %tmp.496);
+        lputv %text_width.17 %tmp.497;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 177 8 ]
+        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
+        %y.18 = local;
+        %tmp.498 = lgetv %dc;
+        %tmp.499 = getv function %tmp.498 :getHeight;
+        %tmp.500 = invoke %tmp.498 %tmp.499();
+        %tmp.502 = lgetv %hours_height.2;
+        %tmp.503 = sub %tmp.500 %tmp.502;
+        %tmp.505 = lgetv %hours_height.2;
+        %tmp.506 = sub %tmp.503 %tmp.505;
+        %tmp.507 = 12;
+        %tmp.508 = sub %tmp.506 %tmp.507;
         %tmp.509 = 4;
         %tmp.510 = div %tmp.508 %tmp.509;
         %tmp.511 = 3;
         %tmp.512 = mul %tmp.510 %tmp.511;
-        %tmp.514 = lgetv %hours_width.1;
+        %tmp.514 = lgetv %hours_height.2;
         %tmp.515 = add %tmp.512 %tmp.514;
-        %tmp.516 = lgetv %dc;
-        %tmp.517 = getv function %tmp.516 :getHeight;
-        %tmp.518 = invoke %tmp.516 %tmp.517();
-        %tmp.519 = 2;
-        %tmp.520 = div %tmp.518 %tmp.519;
-        %tmp.522 = lgetv %hours_height.2;
-        %tmp.523 = 2;
-        %tmp.524 = div %tmp.522 %tmp.523;
-        %tmp.525 = add %tmp.520 %tmp.524;
-        %tmp.526 = 8;
-        %tmp.527 = add %tmp.525 %tmp.526;
-        %tmp.529 = getv ? :comfortaaSmall;
-        invoke %tmp.494 %tmp.495(%tmp.497, %tmp.498, %tmp.499, %tmp.501, %tmp.502, %tmp.515, %tmp.527, %tmp.529);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_179_15_stop:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_168_8_if_end:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 193 8 ]
-        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
-        %floorsClimbed.14 = local;
-        %tmp.530 = getm $.Toybox.ActivityMonitor;
-        %tmp.531 = getv function %tmp.530 :getInfo;
-        %tmp.532 = invoke %tmp.530 %tmp.531();
-        %tmp.533 = getv %tmp.532 :floorsClimbed;
-        lputv %floorsClimbed.14 %tmp.533;
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 194 8 ]
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_8_if_stmt:
-        %tmp.535 = lgetv %floorsClimbed.14;
-        %tmp.536 = null;
-        %tmp.537 = ne %tmp.535 %tmp.536;
-        bf %tmp.537 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_8_if_false;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_8_if_true:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_35_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 195 12 ]
-        %tmp.539 = getv ? :Utils;
-        %tmp.540 = getv function %tmp.539 :drawCommentedValue;
-        %tmp.542 = lgetv %dc;
-        %tmp.543 = lgetv %floorsClimbed.14;
-        %tmp.544 = as %tmp.543 { (!Null) };
-        %tmp.545 = getv function %tmp.544 :toString;
-        %tmp.546 = invoke %tmp.544 %tmp.545();
-        %tmp.547 = 0x007BFF;
-        %tmp.549 = getv ? :floors;
-        %tmp.550 = 0x979595;
-        %tmp.551 = lgetv %dc;
-        %tmp.552 = getv function %tmp.551 :getWidth;
-        %tmp.553 = invoke %tmp.551 %tmp.552();
-        %tmp.555 = lgetv %hours_width.1;
-        %tmp.556 = sub %tmp.553 %tmp.555;
-        %tmp.557 = 4;
-        %tmp.558 = div %tmp.556 %tmp.557;
-        %tmp.559 = 3;
-        %tmp.560 = mul %tmp.558 %tmp.559;
-        %tmp.562 = lgetv %hours_width.1;
-        %tmp.563 = add %tmp.560 %tmp.562;
-        %tmp.564 = lgetv %dc;
-        %tmp.565 = getv function %tmp.564 :getHeight;
-        %tmp.566 = invoke %tmp.564 %tmp.565();
-        %tmp.567 = 2;
-        %tmp.568 = div %tmp.566 %tmp.567;
-        %tmp.570 = lgetv %hours_height.2;
-        %tmp.571 = 2;
-        %tmp.572 = div %tmp.570 %tmp.571;
-        %tmp.573 = sub %tmp.568 %tmp.572;
-        %tmp.574 = 17;
-        %tmp.575 = sub %tmp.573 %tmp.574;
-        %tmp.577 = getv ? :comfortaaSmall;
-        invoke %tmp.539 %tmp.540(%tmp.542, %tmp.546, %tmp.547, %tmp.549, %tmp.550, %tmp.563, %tmp.575, %tmp.577);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_35_stop:
-        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_8_if_end;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_8_if_false:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_205_15_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 206 12 ]
-        %tmp.579 = getv ? :Utils;
-        %tmp.580 = getv function %tmp.579 :drawCommentedValue;
-        %tmp.582 = lgetv %dc;
-        %tmp.583 = "0";
-        %tmp.584 = 0x007BFF;
-        %tmp.586 = getv ? :floors;
-        %tmp.587 = 0x979595;
-        %tmp.588 = lgetv %dc;
-        %tmp.589 = getv function %tmp.588 :getWidth;
-        %tmp.590 = invoke %tmp.588 %tmp.589();
-        %tmp.592 = lgetv %hours_width.1;
-        %tmp.593 = sub %tmp.590 %tmp.592;
-        %tmp.594 = 4;
-        %tmp.595 = div %tmp.593 %tmp.594;
-        %tmp.596 = 3;
-        %tmp.597 = mul %tmp.595 %tmp.596;
-        %tmp.599 = lgetv %hours_width.1;
-        %tmp.600 = add %tmp.597 %tmp.599;
-        %tmp.601 = lgetv %dc;
-        %tmp.602 = getv function %tmp.601 :getHeight;
-        %tmp.603 = invoke %tmp.601 %tmp.602();
-        %tmp.604 = 2;
-        %tmp.605 = div %tmp.603 %tmp.604;
-        %tmp.607 = lgetv %hours_height.2;
-        %tmp.608 = 2;
-        %tmp.609 = div %tmp.607 %tmp.608;
-        %tmp.610 = sub %tmp.605 %tmp.609;
-        %tmp.611 = 17;
-        %tmp.612 = sub %tmp.610 %tmp.611;
-        %tmp.614 = getv ? :comfortaaSmall;
-        invoke %tmp.579 %tmp.580(%tmp.582, %tmp.583, %tmp.584, %tmp.586, %tmp.587, %tmp.600, %tmp.612, %tmp.614);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_205_15_stop:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_194_8_if_end:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 219 8 ]
-        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
-        %battery.15 = local;
-        %tmp.615 = getm $.Toybox.System;
-        %tmp.616 = getv function %tmp.615 :getSystemStats;
-        %tmp.617 = invoke %tmp.615 %tmp.616();
-        %tmp.618 = getv %tmp.617 :battery;
-        %tmp.619 = getv function %tmp.618 :toNumber;
-        %tmp.620 = invoke %tmp.618 %tmp.619();
-        %tmp.621 = getv function %tmp.620 :toString;
-        %tmp.622 = invoke %tmp.620 %tmp.621();
-        %tmp.623 = "%";
-        %tmp.624 = add %tmp.622 %tmp.623;
-        lputv %battery.15 %tmp.624;
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 220 8 ]
-        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
-        %calories.16 = local;
-        %tmp.625 = getm $.Toybox.ActivityMonitor;
-        %tmp.626 = getv function %tmp.625 :getInfo;
-        %tmp.627 = invoke %tmp.625 %tmp.626();
-        %tmp.628 = getv %tmp.627 :calories;
-        lputv %calories.16 %tmp.628;
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 221 8 ]
-        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
-        %text_width.17 = local;
-        %tmp.629 = lgetv %dc;
-        %tmp.630 = getv function %tmp.629 :getTextWidthInPixels;
-        %tmp.631 = "";
-        %tmp.633 = lgetv %calories.16;
-        %tmp.634 = add %tmp.631 %tmp.633;
-        %tmp.636 = getv ? :comfortaaMedium;
-        %tmp.637 = invoke %tmp.629 %tmp.630(%tmp.634, %tmp.636);
-        lputv %text_width.17 %tmp.637;
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 222 8 ]
-        [ "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_start" "C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop" ]
-        %y.18 = local;
-        %tmp.638 = lgetv %dc;
-        %tmp.639 = getv function %tmp.638 :getHeight;
-        %tmp.640 = invoke %tmp.638 %tmp.639();
-        %tmp.642 = lgetv %hours_height.2;
-        %tmp.643 = sub %tmp.640 %tmp.642;
-        %tmp.645 = lgetv %hours_height.2;
-        %tmp.646 = sub %tmp.643 %tmp.645;
-        %tmp.647 = 12;
-        %tmp.648 = sub %tmp.646 %tmp.647;
-        %tmp.649 = 4;
-        %tmp.650 = div %tmp.648 %tmp.649;
-        %tmp.651 = 3;
-        %tmp.652 = mul %tmp.650 %tmp.651;
-        %tmp.654 = lgetv %hours_height.2;
-        %tmp.655 = add %tmp.652 %tmp.654;
-        %tmp.657 = lgetv %hours_height.2;
-        %tmp.658 = add %tmp.655 %tmp.657;
-        %tmp.659 = 12;
-        %tmp.660 = add %tmp.658 %tmp.659;
-        lputv %y.18 %tmp.660;
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 223 8 ]
-        %tmp.661 = lgetv %dc;
-        %tmp.662 = getv function %tmp.661 :drawBitmap;
-        %tmp.663 = lgetv %dc;
-        %tmp.664 = getv function %tmp.663 :getWidth;
-        %tmp.665 = invoke %tmp.663 %tmp.664();
-        %tmp.666 = 2;
-        %tmp.667 = div %tmp.665 %tmp.666;
-        %tmp.668 = 10;
-        %tmp.669 = add %tmp.667 %tmp.668;
-        %tmp.671 = lgetv %y.18;
-        %tmp.673 = getv ? :flashIcon;
-        invoke %tmp.661 %tmp.662(%tmp.669, %tmp.671, %tmp.673);
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 224 8 ]
-        %tmp.674 = lgetv %dc;
-        %tmp.675 = getv function %tmp.674 :setColor;
-        %tmp.676 = 0xFFFFFF;
-        %tmp.677 = getm $.Toybox.Graphics;
-        %tmp.678 = getv %tmp.677 :COLOR_TRANSPARENT;
-        invoke %tmp.674 %tmp.675(%tmp.676, %tmp.678);
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 225 8 ]
-        %tmp.679 = lgetv %dc;
-        %tmp.680 = getv function %tmp.679 :drawText;
-        %tmp.681 = lgetv %dc;
-        %tmp.682 = getv function %tmp.681 :getWidth;
-        %tmp.683 = invoke %tmp.681 %tmp.682();
-        %tmp.684 = 2;
-        %tmp.685 = div %tmp.683 %tmp.684;
-        %tmp.686 = 30;
-        %tmp.687 = add %tmp.685 %tmp.686;
-        %tmp.689 = lgetv %y.18;
-        %tmp.691 = getv ? :comfortaaMedium;
-        %tmp.693 = lgetv %battery.15;
-        %tmp.694 = getm $.Toybox.Graphics;
-        %tmp.695 = getv %tmp.694 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.679 %tmp.680(%tmp.687, %tmp.689, %tmp.691, %tmp.693, %tmp.695);
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 227 8 ]
-        %tmp.696 = lgetv %dc;
-        %tmp.697 = getv function %tmp.696 :drawBitmap;
-        %tmp.698 = lgetv %dc;
-        %tmp.699 = getv function %tmp.698 :getWidth;
-        %tmp.700 = invoke %tmp.698 %tmp.699();
-        %tmp.701 = 2;
-        %tmp.702 = div %tmp.700 %tmp.701;
-        %tmp.704 = lgetv %text_width.17;
-        %tmp.705 = sub %tmp.702 %tmp.704;
-        %tmp.706 = 30;
-        %tmp.707 = sub %tmp.705 %tmp.706;
-        %tmp.709 = lgetv %y.18;
-        %tmp.711 = getv ? :kcalIcon;
-        invoke %tmp.696 %tmp.697(%tmp.707, %tmp.709, %tmp.711);
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 228 8 ]
-        %tmp.712 = lgetv %dc;
-        %tmp.713 = getv function %tmp.712 :setColor;
-        %tmp.714 = 0xFFFFFF;
-        %tmp.715 = getm $.Toybox.Graphics;
-        %tmp.716 = getv %tmp.715 :COLOR_TRANSPARENT;
-        invoke %tmp.712 %tmp.713(%tmp.714, %tmp.716);
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 229 8 ]
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_8_if_stmt:
-        %tmp.718 = lgetv %calories.16;
-        %tmp.719 = null;
-        %tmp.720 = ne %tmp.718 %tmp.719;
-        bf %tmp.720 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_8_if_false;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_8_if_true:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_30_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 230 12 ]
-        %tmp.721 = lgetv %dc;
-        %tmp.722 = getv function %tmp.721 :drawText;
-        %tmp.723 = lgetv %dc;
-        %tmp.724 = getv function %tmp.723 :getWidth;
-        %tmp.725 = invoke %tmp.723 %tmp.724();
-        %tmp.726 = 2;
-        %tmp.727 = div %tmp.725 %tmp.726;
-        %tmp.728 = 10;
-        %tmp.729 = sub %tmp.727 %tmp.728;
-        %tmp.731 = lgetv %y.18;
-        %tmp.733 = getv ? :comfortaaMedium;
-        %tmp.734 = lgetv %calories.16;
-        %tmp.735 = as %tmp.734 { (!Null) };
-        %tmp.736 = getv function %tmp.735 :toString;
-        %tmp.737 = invoke %tmp.735 %tmp.736();
-        %tmp.738 = getm $.Toybox.Graphics;
-        %tmp.739 = getv %tmp.738 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.721 %tmp.722(%tmp.729, %tmp.731, %tmp.733, %tmp.737, %tmp.739);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_30_stop:
-        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_8_if_end;
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_8_if_false:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_231_15_start:
-[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 232 12 ]
-        %tmp.740 = lgetv %dc;
-        %tmp.741 = getv function %tmp.740 :drawText;
-        %tmp.742 = lgetv %dc;
-        %tmp.743 = getv function %tmp.742 :getWidth;
-        %tmp.744 = invoke %tmp.742 %tmp.743();
-        %tmp.745 = 2;
-        %tmp.746 = div %tmp.744 %tmp.745;
-        %tmp.747 = 10;
-        %tmp.748 = sub %tmp.746 %tmp.747;
-        %tmp.750 = lgetv %y.18;
-        %tmp.752 = getv ? :comfortaaMedium;
-        %tmp.753 = "0";
-        %tmp.754 = getm $.Toybox.Graphics;
-        %tmp.755 = getv %tmp.754 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.740 %tmp.741(%tmp.748, %tmp.750, %tmp.752, %tmp.753, %tmp.755);
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_231_15_stop:
-C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_229_8_if_end:
+        %tmp.517 = lgetv %hours_height.2;
+        %tmp.518 = add %tmp.515 %tmp.517;
+        %tmp.519 = 12;
+        %tmp.520 = add %tmp.518 %tmp.519;
+        lputv %y.18 %tmp.520;
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 178 8 ]
+        %tmp.521 = lgetv %dc;
+        %tmp.522 = getv function %tmp.521 :drawBitmap;
+        %tmp.523 = lgetv %dc;
+        %tmp.524 = getv function %tmp.523 :getWidth;
+        %tmp.525 = invoke %tmp.523 %tmp.524();
+        %tmp.526 = 2;
+        %tmp.527 = div %tmp.525 %tmp.526;
+        %tmp.528 = 10;
+        %tmp.529 = add %tmp.527 %tmp.528;
+        %tmp.531 = lgetv %y.18;
+        %tmp.533 = getv ? :flashIcon;
+        invoke %tmp.521 %tmp.522(%tmp.529, %tmp.531, %tmp.533);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 179 8 ]
+        %tmp.534 = lgetv %dc;
+        %tmp.535 = getv function %tmp.534 :setColor;
+        %tmp.536 = 0xFFFFFF;
+        %tmp.537 = getm $.Toybox.Graphics;
+        %tmp.538 = getv %tmp.537 :COLOR_TRANSPARENT;
+        invoke %tmp.534 %tmp.535(%tmp.536, %tmp.538);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 180 8 ]
+        %tmp.539 = lgetv %dc;
+        %tmp.540 = getv function %tmp.539 :drawText;
+        %tmp.541 = lgetv %dc;
+        %tmp.542 = getv function %tmp.541 :getWidth;
+        %tmp.543 = invoke %tmp.541 %tmp.542();
+        %tmp.544 = 2;
+        %tmp.545 = div %tmp.543 %tmp.544;
+        %tmp.546 = 30;
+        %tmp.547 = add %tmp.545 %tmp.546;
+        %tmp.549 = lgetv %y.18;
+        %tmp.551 = getv ? :comfortaaMedium;
+        %tmp.553 = lgetv %battery.15;
+        %tmp.554 = getm $.Toybox.Graphics;
+        %tmp.555 = getv %tmp.554 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.539 %tmp.540(%tmp.547, %tmp.549, %tmp.551, %tmp.553, %tmp.555);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 182 8 ]
+        %tmp.556 = lgetv %dc;
+        %tmp.557 = getv function %tmp.556 :drawBitmap;
+        %tmp.558 = lgetv %dc;
+        %tmp.559 = getv function %tmp.558 :getWidth;
+        %tmp.560 = invoke %tmp.558 %tmp.559();
+        %tmp.561 = 2;
+        %tmp.562 = div %tmp.560 %tmp.561;
+        %tmp.564 = lgetv %text_width.17;
+        %tmp.565 = sub %tmp.562 %tmp.564;
+        %tmp.566 = 30;
+        %tmp.567 = sub %tmp.565 %tmp.566;
+        %tmp.569 = lgetv %y.18;
+        %tmp.571 = getv ? :kcalIcon;
+        invoke %tmp.556 %tmp.557(%tmp.567, %tmp.569, %tmp.571);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 183 8 ]
+        %tmp.572 = lgetv %dc;
+        %tmp.573 = getv function %tmp.572 :setColor;
+        %tmp.574 = 0xFFFFFF;
+        %tmp.575 = getm $.Toybox.Graphics;
+        %tmp.576 = getv %tmp.575 :COLOR_TRANSPARENT;
+        invoke %tmp.572 %tmp.573(%tmp.574, %tmp.576);
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 184 8 ]
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_8_if_stmt:
+        %tmp.578 = lgetv %calories.16;
+        %tmp.579 = null;
+        %tmp.580 = ne %tmp.578 %tmp.579;
+        bf %tmp.580 @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_8_if_false;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_8_if_true:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_30_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 185 12 ]
+        %tmp.581 = lgetv %dc;
+        %tmp.582 = getv function %tmp.581 :drawText;
+        %tmp.583 = lgetv %dc;
+        %tmp.584 = getv function %tmp.583 :getWidth;
+        %tmp.585 = invoke %tmp.583 %tmp.584();
+        %tmp.586 = 2;
+        %tmp.587 = div %tmp.585 %tmp.586;
+        %tmp.588 = 10;
+        %tmp.589 = sub %tmp.587 %tmp.588;
+        %tmp.591 = lgetv %y.18;
+        %tmp.593 = getv ? :comfortaaMedium;
+        %tmp.594 = lgetv %calories.16;
+        %tmp.595 = as %tmp.594 { (!Null) };
+        %tmp.596 = getv function %tmp.595 :toString;
+        %tmp.597 = invoke %tmp.595 %tmp.596();
+        %tmp.598 = getm $.Toybox.Graphics;
+        %tmp.599 = getv %tmp.598 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.581 %tmp.582(%tmp.589, %tmp.591, %tmp.593, %tmp.597, %tmp.599);
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_30_stop:
+        goto @C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_8_if_end;
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_8_if_false:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_186_15_start:
+[ "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc" 187 12 ]
+        %tmp.600 = lgetv %dc;
+        %tmp.601 = getv function %tmp.600 :drawText;
+        %tmp.602 = lgetv %dc;
+        %tmp.603 = getv function %tmp.602 :getWidth;
+        %tmp.604 = invoke %tmp.602 %tmp.603();
+        %tmp.605 = 2;
+        %tmp.606 = div %tmp.604 %tmp.605;
+        %tmp.607 = 10;
+        %tmp.608 = sub %tmp.606 %tmp.607;
+        %tmp.610 = lgetv %y.18;
+        %tmp.612 = getv ? :comfortaaMedium;
+        %tmp.613 = "0";
+        %tmp.614 = getm $.Toybox.Graphics;
+        %tmp.615 = getv %tmp.614 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.600 %tmp.601(%tmp.608, %tmp.610, %tmp.612, %tmp.613, %tmp.615);
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_186_15_stop:
+C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_184_8_if_end:
 C_Users_stani_Documents_Ukrainian_watchface_Ukrainianwatchface_source_UkrainianwatchfaceView_mc_72_40_stop:
     }
-    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc"; @line = 241; ]
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc"; @line = 196; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc"; @line = 245; ]
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc"; @line = 200; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc"; @line = 249; ]
+    [ @file = "C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\source\UkrainianwatchfaceView.mc"; @line = 204; ]
     function onEnterSleep() as Void {
     }
 }
