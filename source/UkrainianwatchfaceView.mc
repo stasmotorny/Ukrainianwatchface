@@ -80,7 +80,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var currentWindSpeed = Weather.getCurrentConditions().windSpeed.toNumber();
         var precipitationChanceForecast = Weather.getCurrentConditions().precipitationChance;
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
-        if (currentTemperature != null && currentTemperature != null && currentTemperature != null) {
+        if (currentTemperature != null && currentWindSpeed != null && precipitationChanceForecast != null) {
             dc.drawText(
                 dc.getWidth() / 2,
                 (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
