@@ -40,48 +40,24 @@ module Rez {
     module Strings {
         (:initialized) var day4Abbr as Symbol;
         (:initialized) var metres as Symbol;
-        (:initialized) var mon7Name as Symbol;
         (:initialized) var day1Name as Symbol;
-        (:initialized) var mon5Abbr as Symbol;
+        (:initialized) var beatsPerMin as Symbol;
         (:initialized) var day0Abbr as Symbol;
         (:initialized) var day0Name as Symbol;
-        (:initialized) var mon1Abbr as Symbol;
-        (:initialized) var mon12Abbr as Symbol;
-        (:initialized) var mon3Name as Symbol;
+        (:initialized) var day2Abbr as Symbol;
+        (:initialized) var day4Name as Symbol;
+        (:initialized) var steps as Symbol;
         (:initialized) var AppName as Symbol;
+        (:initialized) var day6Abbr as Symbol;
         (:initialized) var day6Name as Symbol;
-        (:initialized) var mon10Name as Symbol;
         (:initialized) var day2Name as Symbol;
-        (:initialized) var mon1Name as Symbol;
-        (:initialized) var mon6Name as Symbol;
+        (:initialized) var day3Abbr as Symbol;
+        (:initialized) var metresPerSecond as Symbol;
         (:initialized) var floors as Symbol;
-        (:initialized) var mon9Abbr as Symbol;
+        (:initialized) var day5Name as Symbol;
         (:initialized) var day1Abbr as Symbol;
         (:initialized) var day5Abbr as Symbol;
         (:initialized) var day3Name as Symbol;
-        (:initialized) var mon4Abbr as Symbol;
-        (:initialized) var mon11Abbr as Symbol;
-        (:initialized) var mon2Name as Symbol;
-        (:initialized) var mon8Abbr as Symbol;
-        (:initialized) var beatsPerMin as Symbol;
-        (:initialized) var mon10Abbr as Symbol;
-        (:initialized) var mon9Name as Symbol;
-        (:initialized) var day2Abbr as Symbol;
-        (:initialized) var mon5Name as Symbol;
-        (:initialized) var day4Name as Symbol;
-        (:initialized) var steps as Symbol;
-        (:initialized) var mon3Abbr as Symbol;
-        (:initialized) var mon12Name as Symbol;
-        (:initialized) var day6Abbr as Symbol;
-        (:initialized) var day3Abbr as Symbol;
-        (:initialized) var mon7Abbr as Symbol;
-        (:initialized) var metresPerSecond as Symbol;
-        (:initialized) var mon8Name as Symbol;
-        (:initialized) var day5Name as Symbol;
-        (:initialized) var mon4Name as Symbol;
-        (:initialized) var mon6Abbr as Symbol;
-        (:initialized) var mon2Abbr as Symbol;
-        (:initialized) var mon11Name as Symbol;
     } // Strings
 
     module Styles {
