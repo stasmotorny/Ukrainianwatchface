@@ -22,7 +22,7 @@ module Utils{
                 x,
                 y,
                 font,
-                value,
+                value.toString(),
                 Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER
             );
         } else {

@@ -77,7 +77,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         //Weather block
         var currentTemperature = Weather.getCurrentConditions().temperature;
-        var currentWindSpeed = Weather.getCurrentConditions().windSpeed.toNumber();
+        var currentWindSpeed = Weather.getCurrentConditions().windSpeed;
         var precipitationChanceForecast = Weather.getCurrentConditions().precipitationChance;
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
         if (currentTemperature != null && currentWindSpeed != null && precipitationChanceForecast != null) {
@@ -85,7 +85,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
                 dc.getWidth() / 2,
                 (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
                 comfortaaMedium,
-                Lang.format("$1$°C | $2$$4$ | $3$%", [currentTemperature, currentWindSpeed, precipitationChanceForecast, metresPerSecond]),
+                Lang.format("$1$°C | $2$$4$ | $3$%", [currentTemperature, currentWindSpeed.toNumber(), precipitationChanceForecast, metresPerSecond]),
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
             );
         } else {
@@ -135,7 +135,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var stepCount = Mon.getInfo().steps;
         Utils.drawCommentedValue(
             dc,
-            stepCount.toString(),
+            stepCount,
             0xFFFF00,
             steps,
             0x979595,
@@ -146,9 +146,12 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         //Altitude data block
         var currentAltitude = Activity.getActivityInfo().altitude;
+        if (currentAltitude != null) {
+            currentAltitude = currentAltitude.toNumber().toString();
+        }
         Utils.drawCommentedValue(
             dc,
-            currentAltitude.toNumber().toString(),
+            currentAltitude,
             0xFFFF00,
             metres,
             0x979595,
@@ -161,7 +164,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var floorsClimbed = Mon.getInfo().floorsClimbed;
         Utils.drawCommentedValue(
             dc,
-            floorsClimbed.toString(),
+            floorsClimbed,
             0x007BFF,
             floors,
             0x979595,
