@@ -16,32 +16,6 @@
     <string id="day5Name">Friday</string>
     <string id="day6Name">Saturday</string>
 
-    <string id="mon1Abbr">Jan</string>
-    <string id="mon2Abbr">Feb</string>
-    <string id="mon3Abbr">Mar</string>
-    <string id="mon4Abbr">Apr</string>
-    <string id="mon5Abbr">May</string>
-    <string id="mon6Abbr">Jun</string>
-    <string id="mon7Abbr">Jul</string>
-    <string id="mon8Abbr">Aug</string>
-    <string id="mon9Abbr">Sep</string>
-    <string id="mon10Abbr">Oct</string>
-    <string id="mon11Abbr">Nov</string>
-    <string id="mon12Abbr">Dec</string>
-
-    <string id="mon1Name">January</string>
-    <string id="mon2Name">February</string>
-    <string id="mon3Name">March</string>
-    <string id="mon4Name">April</string>
-    <string id="mon5Name">May</string>
-    <string id="mon6Name">June</string>
-    <string id="mon7Name">July</string>
-    <string id="mon8Name">August</string>
-    <string id="mon9Name">September</string>
-    <string id="mon10Name">October</string>
-    <string id="mon11Name">November</string>
-    <string id="mon12Name">December</string>
-
     <string id="metresPerSecond">m/s</string>
     <string id="beatsPerMin">bpm</string>
     <string id="floors">Floors</string>

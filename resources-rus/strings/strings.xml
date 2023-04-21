@@ -16,32 +16,6 @@
     <string id="day5Name">П'ятниця</string>
     <string id="day6Name">Субота</string>
 
-    <string id="mon1Abbr">Січ</string>
-    <string id="mon2Abbr">Лют</string>
-    <string id="mon3Abbr">Бер</string>
-    <string id="mon4Abbr">Кві</string>
-    <string id="mon5Abbr">Тра</string>
-    <string id="mon6Abbr">Чер</string>
-    <string id="mon7Abbr">Лип</string>
-    <string id="mon8Abbr">Сер</string>
-    <string id="mon9Abbr">Вер</string>
-    <string id="mon10Abbr">Жов</string>
-    <string id="mon11Abbr">Лис</string>
-    <string id="mon12Abbr">Гру</string>
-
-    <string id="mon1Name">Січень</string>
-    <string id="mon2Name">Лютий</string>
-    <string id="mon3Name">Березень</string>
-    <string id="mon4Name">Квітень</string>
-    <string id="mon5Name">Травень</string>
-    <string id="mon6Name">Червень</string>
-    <string id="mon7Name">Липень</string>
-    <string id="mon8Name">Серпень</string>
-    <string id="mon9Name">Вересень</string>
-    <string id="mon10Name">Жовтень</string>
-    <string id="mon11Name">Листопад</string>
-    <string id="mon12Name">Грудень</string>
-
     <string id="metresPerSecond">м/с</string>
     <string id="beatsPerMin">уд./хв.</string>
     <string id="floors">Поверхи</string>

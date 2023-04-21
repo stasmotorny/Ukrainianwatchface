@@ -17,8 +17,6 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var kcalIcon;
     var fullDayNames as Array<Lang.String> or Null;
     var shortDayNames as Array<String> or Null;
-    var fullMonthNames as Array<String> or Null;
-    var shortMonthNames as Array<String> or Null;
     var metresPerSecond;
     var beatsPerMinute;
     var floors;
@@ -60,34 +58,6 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
             Ui.loadResource(Rez.Strings.day5Abbr),
             Ui.loadResource(Rez.Strings.day6Abbr)
         ];
-        fullMonthNames = [
-            Ui.loadResource(Rez.Strings.mon1Name),
-            Ui.loadResource(Rez.Strings.mon2Name),
-            Ui.loadResource(Rez.Strings.mon3Name),
-            Ui.loadResource(Rez.Strings.mon4Name),
-            Ui.loadResource(Rez.Strings.mon5Name),
-            Ui.loadResource(Rez.Strings.mon6Name),
-            Ui.loadResource(Rez.Strings.mon7Name),
-            Ui.loadResource(Rez.Strings.mon8Name),
-            Ui.loadResource(Rez.Strings.mon9Name),
-            Ui.loadResource(Rez.Strings.mon10Name),
-            Ui.loadResource(Rez.Strings.mon11Name),
-            Ui.loadResource(Rez.Strings.mon12Name)
-        ];
-        shortMonthNames = [
-            Ui.loadResource(Rez.Strings.mon1Abbr),
-            Ui.loadResource(Rez.Strings.mon2Abbr),
-            Ui.loadResource(Rez.Strings.mon3Abbr),
-            Ui.loadResource(Rez.Strings.mon4Abbr),
-            Ui.loadResource(Rez.Strings.mon5Abbr),
-            Ui.loadResource(Rez.Strings.mon6Abbr),
-            Ui.loadResource(Rez.Strings.mon7Abbr),
-            Ui.loadResource(Rez.Strings.mon8Abbr),
-            Ui.loadResource(Rez.Strings.mon9Abbr),
-            Ui.loadResource(Rez.Strings.mon10Abbr),
-            Ui.loadResource(Rez.Strings.mon11Abbr),
-            Ui.loadResource(Rez.Strings.mon12Abbr)
-        ];
 
         setLayout(Rez.Layouts.WatchFace(dc));
     }
@@ -119,13 +89,15 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         );
 
         // Date block
-        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day_of_week;
+        var date = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day;
+        var month = Gregorian.info(Time.now(), Time.FORMAT_LONG).month;
         var dateString = Lang.format(
             "$1$ $2$ $3$",
             [
-                fullDayNames[today.day_of_week - 1],
-                today.day,
-                shortMonthNames[today.month - 1]
+                fullDayNames[today - 1],
+                date,
+                month
             ]
         );
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
