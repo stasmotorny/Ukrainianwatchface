@@ -76,16 +76,14 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var hours_height = dc.getFontHeight(comfortaaLarge) - 20;
 
         //Weather block
-        var currentTemperature = Weather.getCurrentConditions().temperature;
-        var currentWindSpeed = Weather.getCurrentConditions().windSpeed;
-        var precipitationChanceForecast = Weather.getCurrentConditions().precipitationChance;
+        var currentWeather = Weather.getCurrentConditions();
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
-        if (currentTemperature != null && currentWindSpeed != null && precipitationChanceForecast != null) {
+        if (currentWeather != null) {
             dc.drawText(
                 dc.getWidth() / 2,
                 (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
                 comfortaaMedium,
-                Lang.format("$1$°C | $2$$4$ | $3$%", [currentTemperature, currentWindSpeed.toNumber(), precipitationChanceForecast, metresPerSecond]),
+                Lang.format("$1$°C | $2$$4$ | $3$%", [currentWeather.temperature, currentWeather.windSpeed.toNumber(), currentWeather.precipitationChance, metresPerSecond]),
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
             );
         } else {
@@ -100,15 +98,14 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
        
 
         // Date block
-        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day_of_week;
-        var date = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day;
-        var month = Gregorian.info(Time.now(), Time.FORMAT_LONG).month;
+        var dateShort = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var dateLong = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         var dateString = Lang.format(
             "$1$ $2$ $3$",
             [
-                fullDayNames[today - 1],
-                date,
-                month
+                fullDayNames[dateShort.day_of_week - 1],
+                dateShort.day,
+                dateLong.month
             ]
         );
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
@@ -147,7 +144,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         //Altitude data block
         var currentAltitude = Activity.getActivityInfo().altitude;
         if (currentAltitude != null) {
-            currentAltitude = currentAltitude.toNumber().toString();
+            currentAltitude = currentAltitude.toNumber();
         }
         Utils.drawCommentedValue(
             dc,
