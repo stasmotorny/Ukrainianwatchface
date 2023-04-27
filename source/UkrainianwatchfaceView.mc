@@ -1,4 +1,5 @@
 import Toybox.Graphics;
+import Toybox.Application;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
@@ -22,6 +23,10 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var floors;
     var steps;
     var metres;
+    var weatherArray;
+    var weatherFirstField;
+    var weatherSecondField;
+    var weatherThirdField;
 
     function initialize() {
         WatchFace.initialize();
@@ -77,13 +82,23 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         //Weather block
         var currentWeather = Weather.getCurrentConditions();
+        weatherArray = [
+            Lang.format("$1$°C", [currentWeather.temperature]),
+            Lang.format("$1$$2$", [currentWeather.windSpeed.toNumber(), metresPerSecond]),
+            Lang.format("$1$%", [currentWeather.precipitationChance]),
+            Lang.format("$1$%", [currentWeather.relativeHumidity]),
+            Lang.format("$1$°C", [currentWeather.feelsLikeTemperature])
+        ];
+        var fieldOneIndex = Application.getApp().getProperty("weatherFirst");
+        var fieldOTwoIndex = Application.getApp().getProperty("weatherSecond");
+        var fieldThreeIndex = Application.getApp().getProperty("weatherThird");
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
         if (currentWeather != null) {
             dc.drawText(
                 dc.getWidth() / 2,
                 (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
                 comfortaaMedium,
-                Lang.format("$1$°C | $2$$4$ | $3$%", [currentWeather.temperature, currentWeather.windSpeed.toNumber(), currentWeather.precipitationChance, metresPerSecond]),
+                Lang.format("$1$ | $2$ | $3$", [weatherArray[fieldOneIndex], weatherArray[fieldOTwoIndex], weatherArray[fieldThreeIndex]]),
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
             );
         } else {
@@ -91,7 +106,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
                 dc.getWidth() / 2,
                 (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
                 comfortaaMedium,
-                Lang.format("$1$°C | $2$$4$ | $3$%", [0, 0, 0, metresPerSecond]),
+                Lang.format("$1$ | $2$ | $3$", [0, 0, 0]),
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
             );
         }
@@ -189,6 +204,17 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         // View.onUpdate(dc);
     }
+
+    // Called if user changed settings
+    function onSettingsChanged() {
+		// mFieldTypes[0] = getIntProperty("Field1Type", 0);
+		// mFieldTypes[1] = getIntProperty("Field2Type", 1);
+		// mFieldTypes[2] = getIntProperty("Field3Type", 2);
+
+		// mView.onSettingsChanged(); // Calls checkPendingWebRequests().
+
+		Ui.requestUpdate();
+	}
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from

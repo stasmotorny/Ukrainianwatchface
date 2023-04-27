@@ -1,0 +1,33 @@
+<settings>
+
+    <setting propertyKey="@Properties.weatherFirst" title="Weather first element">
+        <settingConfig type="list">
+            <listEntry value="0">Temperature</listEntry>
+            <listEntry value="1">Wind speed</listEntry>
+            <listEntry value="2">Precipitation chance</listEntry>
+            <listEntry value="3">Humidity</listEntry>
+            <listEntry value="4">Temperature feels like</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.weatherSecond" title="Weather first element">
+        <settingConfig type="list">
+            <listEntry value="0">Temperature</listEntry>
+            <listEntry value="1">Wind speed</listEntry>
+            <listEntry value="2">Precipitation chance</listEntry>
+            <listEntry value="3">Humidity</listEntry>
+            <listEntry value="4">Temperature feels like</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.weatherThird" title="Weather first element">
+        <settingConfig type="list">
+            <listEntry value="0">Temperature</listEntry>
+            <listEntry value="1">Wind speed</listEntry>
+            <listEntry value="2">Precipitation chance</listEntry>
+            <listEntry value="3">Humidity</listEntry>
+            <listEntry value="4">Temperature feels like</listEntry>
+        </settingConfig>
+    </setting>
+
+</settings>

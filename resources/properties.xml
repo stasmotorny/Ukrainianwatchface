@@ -1,0 +1,5 @@
+<properties>
+    <property id="weatherFirst" type="number">0</property>
+    <property id="weatherSecond" type="number">1</property>
+    <property id="weatherThird" type="number">2</property>
+</properties>
