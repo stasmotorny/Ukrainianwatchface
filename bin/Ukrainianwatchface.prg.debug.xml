@@ -74,7 +74,7 @@
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="253" parent="globals/UkrainianwatchfaceView" pc="268440115" symbol="onUpdate"/>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="10" lineNum="26" parent="globals" pc="268440171" symbol="getApp"/>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="10" lineNum="27" parent="globals" pc="268440181" symbol="getApp"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268440197" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268440197" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="17" parent="globals/dataLabel" pc="268440221" symbol="initialize"/>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="18" parent="globals/dataLabel" pc="268440223" symbol="initialize"/>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="19" parent="globals/dataLabel" pc="268440233" symbol="initialize"/>
@@ -101,12 +101,12 @@
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="41" parent="globals/Utils" pc="268440708" symbol="drawCommentedValue"/>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="49" parent="globals/Utils" pc="268440736" symbol="drawCommentedValue"/>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="50" parent="globals/Utils" pc="268440755" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268440787" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268440799" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268440911" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="29" parent="globals/Rez/Layouts" pc="268441023" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="31" parent="globals/Rez/Layouts" pc="268441148" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268441273" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268440787" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268440799" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268440911" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="29" parent="globals/Rez/Layouts" pc="268441023" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="31" parent="globals/Rez/Layouts" pc="268441148" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268441273" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="18" symbol="breath"/>

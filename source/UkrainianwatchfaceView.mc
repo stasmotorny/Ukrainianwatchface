@@ -123,7 +123,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
             new dataLabel(activity, Mon.getInfo().activeMinutesDay.total),
         ];
 
-        //Weather block
+    //Weather block
         var currentWeather = Weather.getCurrentConditions();
         weatherArray = [
             Lang.format("$1$°C", [currentWeather.temperature]),
@@ -155,7 +155,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         }
        
 
-        // Date block
+    // Date block
         var dateShort = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         var dateLong = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         var dateString = Lang.format(
@@ -175,7 +175,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         );
 
-        //Time block
+    //Time block
         var clockTime = System.getClockTime();
         dc.setColor(0x007BFF,Graphics.COLOR_TRANSPARENT);
         dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 - 30, comfortaaLarge, Lang.format("$1$", [clockTime.hour.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
