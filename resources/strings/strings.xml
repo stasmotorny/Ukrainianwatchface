@@ -21,4 +21,35 @@
     <string id="floors">Floors</string>
     <string id="steps">Steps</string>
     <string id="metres">Metres</string>
+    <string id="breath">br/min</string>
+    <string id="saturation">Sat., %</string>
+    <string id="energyExpenditure">kcal/min</string>
+    <string id="recovery">Hours</string>
+    <string id="activity">Minutes</string>
+
+    <string id="firstWeatherElement">First weather element</string>
+    <string id="secondWeatherElement">Second weather element</string>
+    <string id="thirdWeatherElement">Third weather element</string>
+
+    <string id="temperature">Temperature</string>
+    <string id="windSpeed">Wind speed</string>
+    <string id="precipitationChance">Precipitation chance</string>
+    <string id="humidity">Humidity</string>
+    <string id="temperatureFeelsLike">Temperature feels like</string>
+
+    <string id="topLeft">Top left datafield</string>
+    <string id="bottomLeft">Bottom left datafield</string>
+    <string id="topRight">Top right datafield</string>
+    <string id="bottomRight">Bottom right datafield</string>
+
+    <string id="stepsSetting">Steps today</string>
+    <string id="heartrateSetting">Current heartrate</string>
+    <string id="floorsSetting">Floors today</string>
+    <string id="altitudeSetting">Current altitude</string>
+    <string id="breathPerMinuteSetting">Breates per minute</string>
+    <string id="oxygenSaturationSetting">Oxygen saturation</string>
+    <string id="energyExpenditureSetting">Energy expenditure</string>
+    <string id="recoveryTimeSetting">Recovery time</string>
+    <string id="distanceSetting">Distance passed today</string>
+    <string id="activityTimeSetting">Active time today</string>
 </strings>

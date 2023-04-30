@@ -21,4 +21,35 @@
     <string id="floors">Поверхи</string>
     <string id="steps">Кроки</string>
     <string id="metres">Метри</string>
+    <string id="breath">Вдих/хв</string>
+    <string id="saturation">Насич., %</string>
+    <string id="energyExpenditure">ккал/хв</string>
+    <string id="recovery">Годин</string>
+    <string id="activity">Хвилин</string>
+
+    <string id="firstWeatherElement">Блок погоди, перший елемент</string>
+    <string id="secondWeatherElement">Блок погоди, другий елемент</string>
+    <string id="thirdWeatherElement">Блок погоди, третій елемент</string>
+
+    <string id="temperature">Температура</string>
+    <string id="windSpeed">Швидкість вітру</string>
+    <string id="precipitationChance">Ймовірність опадів</string>
+    <string id="humidity">Вологість</string>
+    <string id="temperatureFeelsLike">Температура відчувається як</string>
+
+    <string id="topLeft">Верхнє ліве поле даних</string>
+    <string id="bottomLeft">Нижнє ліве поле даних</string>
+    <string id="topRight">Верхнє праве поле даних</string>
+    <string id="bottomRight">Нижнє праве поле даних</string>
+
+    <string id="stepsSetting">Кількість кроків сьогодні</string>
+    <string id="heartrateSetting">Поточна частота пульсу</string>
+    <string id="floorsSetting">Кількість поверхів сьогодні</string>
+    <string id="altitudeSetting">Поточна висота</string>
+    <string id="breathPerMinuteSetting">Частота дихання</string>
+    <string id="oxygenSaturationSetting">Насиченість крові киснем</string>
+    <string id="energyExpenditureSetting">Поточні витрати енергії</string>
+    <string id="recoveryTimeSetting">Час відновлення</string>
+    <string id="distanceSetting">Подолана сьогодні відстань</string>
+    <string id="activityTimeSetting">Активний час за сьогодні</string>
 </strings>

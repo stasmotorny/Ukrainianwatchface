@@ -1,32 +1,92 @@
 <settings>
 
-    <setting propertyKey="@Properties.weatherFirst" title="Weather first element">
+    <setting propertyKey="@Properties.weatherFirst" title="@Strings.firstWeatherElement">
         <settingConfig type="list">
-            <listEntry value="0">Temperature</listEntry>
-            <listEntry value="1">Wind speed</listEntry>
-            <listEntry value="2">Precipitation chance</listEntry>
-            <listEntry value="3">Humidity</listEntry>
-            <listEntry value="4">Temperature feels like</listEntry>
+            <listEntry value="0">@Strings.temperature</listEntry>
+            <listEntry value="1">@Strings.windSpeed</listEntry>
+            <listEntry value="2">@Strings.precipitationChance</listEntry>
+            <listEntry value="3">@Strings.humidity</listEntry>
+            <listEntry value="4">@Strings.temperatureFeelsLike</listEntry>
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.weatherSecond" title="Weather first element">
+    <setting propertyKey="@Properties.weatherSecond" title="@Strings.secondWeatherElement">
         <settingConfig type="list">
-            <listEntry value="0">Temperature</listEntry>
-            <listEntry value="1">Wind speed</listEntry>
-            <listEntry value="2">Precipitation chance</listEntry>
-            <listEntry value="3">Humidity</listEntry>
-            <listEntry value="4">Temperature feels like</listEntry>
+            <listEntry value="0">@Strings.temperature</listEntry>
+            <listEntry value="1">@Strings.windSpeed</listEntry>
+            <listEntry value="2">@Strings.precipitationChance</listEntry>
+            <listEntry value="3">@Strings.humidity</listEntry>
+            <listEntry value="4">@Strings.temperatureFeelsLike</listEntry>
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.weatherThird" title="Weather first element">
+    <setting propertyKey="@Properties.weatherThird" title="@Strings.thirdWeatherElement">
         <settingConfig type="list">
-            <listEntry value="0">Temperature</listEntry>
-            <listEntry value="1">Wind speed</listEntry>
-            <listEntry value="2">Precipitation chance</listEntry>
-            <listEntry value="3">Humidity</listEntry>
-            <listEntry value="4">Temperature feels like</listEntry>
+            <listEntry value="0">@Strings.temperature</listEntry>
+            <listEntry value="1">@Strings.windSpeed</listEntry>
+            <listEntry value="2">@Strings.precipitationChance</listEntry>
+            <listEntry value="3">@Strings.humidity</listEntry>
+            <listEntry value="4">@Strings.temperatureFeelsLike</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.topLeft" title="@Strings.topLeft">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.stepsSetting</listEntry>
+            <listEntry value="1">@Strings.heartrateSetting</listEntry>
+            <listEntry value="2">@Strings.floorsSetting</listEntry>
+            <listEntry value="3">@Strings.altitudeSetting</listEntry>
+            <listEntry value="4">@Strings.breathPerMinuteSetting</listEntry>
+            <listEntry value="5">@Strings.oxygenSaturationSetting</listEntry>
+            <listEntry value="6">@Strings.energyExpenditureSetting</listEntry>
+            <listEntry value="7">@Strings.recoveryTimeSetting</listEntry>
+            <listEntry value="8">@Strings.distanceSetting</listEntry>
+            <listEntry value="9">@Strings.activityTimeSetting</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.bottomLeft" title="@Strings.bottomLeft">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.stepsSetting</listEntry>
+            <listEntry value="1">@Strings.heartrateSetting</listEntry>
+            <listEntry value="2">@Strings.floorsSetting</listEntry>
+            <listEntry value="3">@Strings.altitudeSetting</listEntry>
+            <listEntry value="4">@Strings.breathPerMinuteSetting</listEntry>
+            <listEntry value="5">@Strings.oxygenSaturationSetting</listEntry>
+            <listEntry value="6">@Strings.energyExpenditureSetting</listEntry>
+            <listEntry value="7">@Strings.recoveryTimeSetting</listEntry>
+            <listEntry value="8">@Strings.distanceSetting</listEntry>
+            <listEntry value="9">@Strings.activityTimeSetting</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.topRight" title="@Strings.topRight">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.stepsSetting</listEntry>
+            <listEntry value="1">@Strings.heartrateSetting</listEntry>
+            <listEntry value="2">@Strings.floorsSetting</listEntry>
+            <listEntry value="3">@Strings.altitudeSetting</listEntry>
+            <listEntry value="4">@Strings.breathPerMinuteSetting</listEntry>
+            <listEntry value="5">@Strings.oxygenSaturationSetting</listEntry>
+            <listEntry value="6">@Strings.energyExpenditureSetting</listEntry>
+            <listEntry value="7">@Strings.recoveryTimeSetting</listEntry>
+            <listEntry value="8">@Strings.distanceSetting</listEntry>
+            <listEntry value="9">@Strings.activityTimeSetting</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.bottomRight" title="@Strings.bottomRight">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.stepsSetting</listEntry>
+            <listEntry value="1">@Strings.heartrateSetting</listEntry>
+            <listEntry value="2">@Strings.floorsSetting</listEntry>
+            <listEntry value="3">@Strings.altitudeSetting</listEntry>
+            <listEntry value="4">@Strings.breathPerMinuteSetting</listEntry>
+            <listEntry value="5">@Strings.oxygenSaturationSetting</listEntry>
+            <listEntry value="6">@Strings.energyExpenditureSetting</listEntry>
+            <listEntry value="7">@Strings.recoveryTimeSetting</listEntry>
+            <listEntry value="8">@Strings.distanceSetting</listEntry>
+            <listEntry value="9">@Strings.activityTimeSetting</listEntry>
         </settingConfig>
     </setting>
 

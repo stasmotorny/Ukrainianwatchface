@@ -8,6 +8,17 @@ import Toybox.Weather;
 using Toybox.ActivityMonitor as Mon;
 using Toybox.Time.Gregorian;
 using Toybox.WatchUi as Ui;
+import Toybox.SensorHistory;
+
+class dataLabel
+{
+    public var label;
+    public var data;
+    public function initialize(labelArg, dataArg) {
+      label = labelArg;
+      data = dataArg;
+    }
+}
 
 class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var width, height;
@@ -23,10 +34,20 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var floors;
     var steps;
     var metres;
-    var weatherArray;
+    var breath;
+    var saturation;
+    var energyExpenditure;
+    var recovery;
+    var activity;
+    var weatherArray as Array<Lang.String> or Null;
     var weatherFirstField;
     var weatherSecondField;
     var weatherThirdField;
+    var dataFields as Array<dataLabel> or Null;
+    var topLeft;
+    var bottomLeft;
+    var topRight;
+    var bottomRight;
 
     function initialize() {
         WatchFace.initialize();
@@ -44,6 +65,11 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         floors = Ui.loadResource(Rez.Strings.floors);
         steps = Ui.loadResource(Rez.Strings.steps);
         metres = Ui.loadResource(Rez.Strings.metres);
+        breath = Ui.loadResource(Rez.Strings.breath);
+        saturation = Ui.loadResource(Rez.Strings.saturation);
+        energyExpenditure = Ui.loadResource(Rez.Strings.energyExpenditure);
+        recovery = Ui.loadResource(Rez.Strings.recovery);
+        activity = Ui.loadResource(Rez.Strings.activity);
 
         fullDayNames = [
             Ui.loadResource(Rez.Strings.day0Name),
@@ -80,6 +106,23 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var hours_width = dc.getTextWidthInPixels("22",comfortaaLarge);
         var hours_height = dc.getFontHeight(comfortaaLarge) - 20;
 
+        System.println(Mon.getInfo().activeMinutesDay.total);
+
+        dataFields = [
+            new dataLabel(steps, Mon.getInfo().steps),
+            new dataLabel(beatsPerMinute, Activity.getActivityInfo().currentHeartRate),
+            new dataLabel(floors, Mon.getInfo().floorsClimbed),
+            new dataLabel(metres, Activity.getActivityInfo().altitude),
+            new dataLabel(breath, Mon.getInfo().respirationRate),
+            // new dataLabel("bb", SensorHistory.getBodyBatteryHistory()),
+            new dataLabel(saturation, Activity.getActivityInfo().currentOxygenSaturation),
+            // new dataLabel("Stress", SensorHistory.getStressHistory()),
+            new dataLabel(energyExpenditure, Activity.getActivityInfo().energyExpenditure),
+            new dataLabel(recovery, Mon.getInfo().timeToRecovery),
+            new dataLabel(metres, Mon.getInfo().distance * 100),
+            new dataLabel(activity, Mon.getInfo().activeMinutesDay.total),
+        ];
+
         //Weather block
         var currentWeather = Weather.getCurrentConditions();
         weatherArray = [
@@ -98,7 +141,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
                 dc.getWidth() / 2,
                 (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,
                 comfortaaMedium,
-                Lang.format("$1$ | $2$ | $3$", [weatherArray[fieldOneIndex], weatherArray[fieldOTwoIndex], weatherArray[fieldThreeIndex]]),
+                Lang.format("$1$ | $2$ | $3$", [weatherArray[fieldOneIndex] as String, weatherArray[fieldOTwoIndex] as String, weatherArray[fieldThreeIndex] as String]),
                 Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
             );
         } else {
@@ -139,46 +182,54 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         dc.setColor(0xFFFF00,Graphics.COLOR_TRANSPARENT);
         dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2 + 30, comfortaaLarge, Lang.format("$1$", [clockTime.min.format("%02d")]), Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
-        //Heart data
-        var currentHeartrate = Activity.getActivityInfo().currentHeartRate;
-        Utils.renderHeartrate(currentHeartrate, dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall);
+    //Left and right datafields
+        var topLeft = Application.getApp().getProperty("topLeft");
+        var bottomLeft = Application.getApp().getProperty("bottomLeft");
+        var topRight = Application.getApp().getProperty("topRight");
+        var bottomRight = Application.getApp().getProperty("bottomRight");
 
-        //Steps data block
-        var stepCount = Mon.getInfo().steps;
+        // Top left datafield
         Utils.drawCommentedValue(
             dc,
-            stepCount,
+            dataFields[topLeft].data,
+            0x007BFF,
+            dataFields[topLeft].label,
+            0x979595,
+            (dc.getWidth() - hours_width) / 4,
+            dc.getHeight() / 2 - hours_height / 2 - 17,
+            comfortaaSmall
+        );
+
+        // Bottom left datafield
+        Utils.drawCommentedValue(
+            dc,
+            dataFields[bottomLeft].data,
             0xFFFF00,
-            steps,
+            dataFields[bottomLeft].label,
             0x979595,
             (dc.getWidth() - hours_width) / 4,
             dc.getHeight() / 2 + hours_height / 2 + 8,
             comfortaaSmall
         );
 
-        //Altitude data block
-        var currentAltitude = Activity.getActivityInfo().altitude;
-        if (currentAltitude != null) {
-            currentAltitude = currentAltitude.toNumber();
-        }
+        //Bottom right datafield
         Utils.drawCommentedValue(
             dc,
-            currentAltitude,
+            dataFields[bottomRight].data,
             0xFFFF00,
-            metres,
+            dataFields[bottomRight].label,
             0x979595,
             (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
             dc.getHeight() / 2 + hours_height / 2 + 8,
             comfortaaSmall
         );
 
-        //Floors data block
-        var floorsClimbed = Mon.getInfo().floorsClimbed;
+        //Top right datafield
         Utils.drawCommentedValue(
             dc,
-            floorsClimbed,
+            dataFields[topRight].data,
             0x007BFF,
-            floors,
+            dataFields[topRight].label,
             0x979595,
             (dc.getWidth() - hours_width) / 4 * 3 + hours_width,
             dc.getHeight() / 2 - hours_height / 2 - 17,
@@ -207,12 +258,6 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
     // Called if user changed settings
     function onSettingsChanged() {
-		// mFieldTypes[0] = getIntProperty("Field1Type", 0);
-		// mFieldTypes[1] = getIntProperty("Field2Type", 1);
-		// mFieldTypes[2] = getIntProperty("Field3Type", 2);
-
-		// mView.onSettingsChanged(); // Calls checkPendingWebRequests().
-
 		Ui.requestUpdate();
 	}
 
