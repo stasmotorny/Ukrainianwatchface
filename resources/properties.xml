@@ -2,4 +2,8 @@
     <property id="weatherFirst" type="number">0</property>
     <property id="weatherSecond" type="number">1</property>
     <property id="weatherThird" type="number">2</property>
+    <property id="topLeft" type="number">1</property>
+    <property id="bottomLeft" type="number">0</property>
+    <property id="topRight" type="number">2</property>
+    <property id="bottomRight" type="number">3</property>
 </properties>

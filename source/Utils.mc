@@ -15,7 +15,19 @@ module Utils{
 		}
 	}
 
-    function drawCommentedValue(dc,value,value_color,comment,comment_color,x,y, font){
+    function drawCommentedValue(
+        dc,
+        value as Lang.String or Null or Lang.Float,
+        value_color,
+        comment as Lang.String,
+        comment_color,
+        x,
+        y,
+        font
+    ){
+        if (value instanceof Lang.Float) {
+            value = value.toNumber();
+        }
         dc.setColor(value_color,Gfx.COLOR_TRANSPARENT);
         if (value != null) {
             dc.drawText(
@@ -37,36 +49,10 @@ module Utils{
         dc.setColor(comment_color,Gfx.COLOR_TRANSPARENT);
         dc.drawText(
             x,
-            y + 10,
+            y + 15,
             font,
             comment,
             Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER
         );
-    }
-	
-    function renderHeartrate(heartrate, dc, beatsPerMinute, hours_width, hours_height, comfortaaSmall) {
-        if (heartrate != null) {
-            drawCommentedValue(
-                dc,
-                heartrate,
-                0x007BFF,
-                beatsPerMinute,
-                0x979595,
-                (dc.getWidth() - hours_width) / 4,
-                dc.getHeight() / 2 - hours_height / 2 - 17,
-                comfortaaSmall
-            );
-        } else {
-            drawCommentedValue(
-                dc,
-                "",
-                0x007BFF,
-                beatsPerMinute,
-                0x979595,
-                (dc.getWidth() - hours_width) / 4,
-                dc.getHeight() / 2 - hours_height / 2 - 17,
-                comfortaaSmall
-            );
-        }
     }
 }
