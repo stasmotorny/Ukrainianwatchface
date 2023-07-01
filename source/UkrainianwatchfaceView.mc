@@ -48,6 +48,8 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var bottomLeft;
     var topRight;
     var bottomRight;
+    var monitor;
+    var activity;
 
     function initialize() {
         WatchFace.initialize();
@@ -106,24 +108,45 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var hours_width = dc.getTextWidthInPixels("22",comfortaaLarge);
         var hours_height = dc.getFontHeight(comfortaaLarge) - 20;
 
-        System.println(Mon.getInfo().activeMinutesDay.total);
+        monitor = Mon.getInfo(); // Couldn't be Null
+        activity = Activity.getActivityInfo(); // Could be Null
 
-        dataFields = [
-            new dataLabel(steps, Mon.getInfo().steps),
-            new dataLabel(beatsPerMinute, Activity.getActivityInfo().currentHeartRate),
-            new dataLabel(floors, Mon.getInfo().floorsClimbed),
-            new dataLabel(metres, Activity.getActivityInfo().altitude),
-            new dataLabel(breath, Mon.getInfo().respirationRate),
-            // new dataLabel("bb", SensorHistory.getBodyBatteryHistory()),
-            new dataLabel(saturation, Activity.getActivityInfo().currentOxygenSaturation),
-            // new dataLabel("Stress", SensorHistory.getStressHistory()),
-            new dataLabel(energyExpenditure, Activity.getActivityInfo().energyExpenditure),
-            new dataLabel(recovery, Mon.getInfo().timeToRecovery),
-            new dataLabel(metres, Mon.getInfo().distance * 100),
-            new dataLabel(activity, Mon.getInfo().activeMinutesDay.total),
-        ];
+        if (activity != null) {
+            dataFields = [
+                new dataLabel(steps, monitor.steps),
+                new dataLabel(beatsPerMinute, activity.currentHeartRate),
+                new dataLabel(floors, monitor.floorsClimbed),
+                new dataLabel(metres, activity.altitude),
+                new dataLabel(breath, monitor.respirationRate),
+                // new dataLabel("bb", SensorHistory.getBodyBatteryHistory()),
+                new dataLabel(saturation, activity.currentOxygenSaturation),
+                // new dataLabel("Stress", SensorHistory.getStressHistory()),
+                new dataLabel(energyExpenditure, activity.energyExpenditure),
+                new dataLabel(recovery, monitor.timeToRecovery),
+                new dataLabel(metres, monitor.distance * 100),
+                new dataLabel(activity, monitor.activeMinutesDay.total),
+            ];
+        } else {
+            dataFields = [
+                new dataLabel(steps, monitor.steps),
+                new dataLabel(beatsPerMinute, 0),
+                new dataLabel(floors, monitor.floorsClimbed),
+                new dataLabel(metres, 0),
+                new dataLabel(breath, monitor.respirationRate),
+                // new dataLabel("bb", SensorHistory.getBodyBatteryHistory()),
+                new dataLabel(saturation, 0),
+                // new dataLabel("Stress", SensorHistory.getStressHistory()),
+                new dataLabel(energyExpenditure, 0),
+                new dataLabel(recovery, monitor.timeToRecovery),
+                new dataLabel(metres, monitor.distance * 100),
+                new dataLabel(activity, monitor.activeMinutesDay.total),
+            ];
+        }
 
     //Weather block
+//
+// Weather block should update onExitSleep //
+//
         var currentWeather = Weather.getCurrentConditions();
         weatherArray = [
             Lang.format("$1$°C", [currentWeather.temperature]),
@@ -238,7 +261,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 
         //Bottom block
         var battery = System.getSystemStats().battery.toNumber().toString() + "%";
-        var calories = Mon.getInfo().calories;
+        var calories = monitor.calories;
         var text_width = dc.getTextWidthInPixels(""+calories,comfortaaMedium);
         var y = (dc.getHeight() - hours_height - hours_height - 12) / 4 * 3 + hours_height + hours_height + 12;
         dc.drawBitmap(dc.getWidth() / 2 + 10,y,flashIcon);
