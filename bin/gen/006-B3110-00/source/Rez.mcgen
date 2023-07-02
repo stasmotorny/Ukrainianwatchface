@@ -1,0 +1,89 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var Flash as Symbol;
+        (:initialized) var Kcal as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var ComfortaaLarge as Symbol;
+        (:initialized) var ComfortaaSmall as Symbol;
+        (:initialized) var ComfortaaMedium as Symbol;
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_HourLabel = new WatchUi.Text({:identifier=>"HourLabel", :color=>Graphics.COLOR_BLUE, :locX=>(240 * 0.5), :locY=>95, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            var rez_cmp_local_text_MinLabel = new WatchUi.Text({:identifier=>"MinLabel", :color=>Graphics.COLOR_YELLOW, :locX=>(240 * 0.5), :locY=>125, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            var rez_cmp_local_text_StepsCount = new WatchUi.Text({:identifier=>"StepsCount", :color=>Graphics.COLOR_BLUE, :locX=>50, :locY=>95, :text=>"10000", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_StepsLabel = new WatchUi.Text({:identifier=>"StepsLabel", :color=>Graphics.COLOR_YELLOW, :locX=>WatchUi.LAYOUT_HALIGN_LEFT, :locY=>125, :text=>"Steps", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_text_HourLabel, rez_cmp_local_text_MinLabel, rez_cmp_local_text_StepsCount, rez_cmp_local_text_StepsLabel] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var day4Abbr as Symbol;
+        (:initialized) var metres as Symbol;
+        (:initialized) var energyExpenditureSetting as Symbol;
+        (:initialized) var day1Name as Symbol;
+        (:initialized) var activity as Symbol;
+        (:initialized) var altitudeSetting as Symbol;
+        (:initialized) var bottomRight as Symbol;
+        (:initialized) var activityTimeSetting as Symbol;
+        (:initialized) var energyExpenditure as Symbol;
+        (:initialized) var floorsSetting as Symbol;
+        (:initialized) var day0Abbr as Symbol;
+        (:initialized) var day0Name as Symbol;
+        (:initialized) var recovery as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var day6Name as Symbol;
+        (:initialized) var oxygenSaturationSetting as Symbol;
+        (:initialized) var day2Name as Symbol;
+        (:initialized) var breath as Symbol;
+        (:initialized) var saturation as Symbol;
+        (:initialized) var floors as Symbol;
+        (:initialized) var temperature as Symbol;
+        (:initialized) var humidity as Symbol;
+        (:initialized) var heartrateSetting as Symbol;
+        (:initialized) var day1Abbr as Symbol;
+        (:initialized) var day5Abbr as Symbol;
+        (:initialized) var windSpeed as Symbol;
+        (:initialized) var day3Name as Symbol;
+        (:initialized) var bottomLeft as Symbol;
+        (:initialized) var beatsPerMin as Symbol;
+        (:initialized) var recoveryTimeSetting as Symbol;
+        (:initialized) var secondWeatherElement as Symbol;
+        (:initialized) var thirdWeatherElement as Symbol;
+        (:initialized) var topRight as Symbol;
+        (:initialized) var precipitationChance as Symbol;
+        (:initialized) var day2Abbr as Symbol;
+        (:initialized) var day4Name as Symbol;
+        (:initialized) var steps as Symbol;
+        (:initialized) var day6Abbr as Symbol;
+        (:initialized) var firstWeatherElement as Symbol;
+        (:initialized) var day3Abbr as Symbol;
+        (:initialized) var metresPerSecond as Symbol;
+        (:initialized) var breathPerMinuteSetting as Symbol;
+        (:initialized) var topLeft as Symbol;
+        (:initialized) var day5Name as Symbol;
+        (:initialized) var distanceSetting as Symbol;
+        (:initialized) var temperatureFeelsLike as Symbol;
+        (:initialized) var stepsSetting as Symbol;
+    } // Strings
+} // Rez
