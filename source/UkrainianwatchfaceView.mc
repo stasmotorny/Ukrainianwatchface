@@ -49,7 +49,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
     var topRight;
     var bottomRight;
     var monitor;
-    var activity;
+    var act;
 
     function initialize() {
         WatchFace.initialize();
@@ -109,19 +109,19 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         var hours_height = dc.getFontHeight(comfortaaLarge) - 20;
 
         monitor = Mon.getInfo(); // Couldn't be Null
-        activity = Activity.getActivityInfo(); // Could be Null
+        act = Activity.getActivityInfo(); // Could be Null
 
-        if (activity != null) {
+        if (act != null) {
             dataFields = [
                 new dataLabel(steps, monitor.steps),
-                new dataLabel(beatsPerMinute, activity.currentHeartRate),
+                new dataLabel(beatsPerMinute, act.currentHeartRate),
                 new dataLabel(floors, monitor.floorsClimbed),
-                new dataLabel(metres, activity.altitude),
+                new dataLabel(metres, act.altitude),
                 new dataLabel(breath, monitor.respirationRate),
                 // new dataLabel("bb", SensorHistory.getBodyBatteryHistory()),
-                new dataLabel(saturation, activity.currentOxygenSaturation),
+                new dataLabel(saturation, act.currentOxygenSaturation),
                 // new dataLabel("Stress", SensorHistory.getStressHistory()),
-                new dataLabel(energyExpenditure, activity.energyExpenditure),
+                new dataLabel(energyExpenditure, act.energyExpenditure),
                 new dataLabel(recovery, monitor.timeToRecovery),
                 new dataLabel(metres, monitor.distance * 100),
                 new dataLabel(activity, monitor.activeMinutesDay.total),
@@ -148,18 +148,18 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
 // Weather block should update onExitSleep //
 //
         var currentWeather = Weather.getCurrentConditions();
-        weatherArray = [
-            Lang.format("$1$°C", [currentWeather.temperature]),
-            Lang.format("$1$$2$", [currentWeather.windSpeed.toNumber(), metresPerSecond]),
-            Lang.format("$1$%", [currentWeather.precipitationChance]),
-            Lang.format("$1$%", [currentWeather.relativeHumidity]),
-            Lang.format("$1$°C", [currentWeather.feelsLikeTemperature])
-        ];
         var fieldOneIndex = Application.getApp().getProperty("weatherFirst");
         var fieldOTwoIndex = Application.getApp().getProperty("weatherSecond");
         var fieldThreeIndex = Application.getApp().getProperty("weatherThird");
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
         if (currentWeather != null) {
+            weatherArray = [
+                Lang.format("$1$°C", [currentWeather.temperature]),
+                Lang.format("$1$$2$", [currentWeather.windSpeed.toNumber(), metresPerSecond]),
+                Lang.format("$1$%", [currentWeather.precipitationChance]),
+                Lang.format("$1$%", [currentWeather.relativeHumidity]),
+                Lang.format("$1$°C", [currentWeather.feelsLikeTemperature])
+            ];
             dc.drawText(
                 dc.getWidth() / 2,
                 (dc.getHeight() - hours_height - hours_height - 12) / 4 + 10,

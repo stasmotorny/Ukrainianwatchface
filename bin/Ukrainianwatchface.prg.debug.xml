@@ -3,280 +3,285 @@
 <manifest filename="C:\Users\stani\Documents\Ukrainian watchface\Ukrainianwatchface\manifest.xml"/>
 <pcToLineNum>
 <entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="1" lineNum="23" parent="globals/UkrainianwatchfaceView" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="2" lineNum="260" parent="globals/UkrainianwatchfaceView" pc="268435479" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="2" lineNum="261" parent="globals/UkrainianwatchfaceView" pc="268435481" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="57" parent="globals/UkrainianwatchfaceView" pc="268435498" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="58" parent="globals/UkrainianwatchfaceView" pc="268435500" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="59" parent="globals/UkrainianwatchfaceView" pc="268435547" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="60" parent="globals/UkrainianwatchfaceView" pc="268435594" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="61" parent="globals/UkrainianwatchfaceView" pc="268435641" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="62" parent="globals/UkrainianwatchfaceView" pc="268435688" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="63" parent="globals/UkrainianwatchfaceView" pc="268435735" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="64" parent="globals/UkrainianwatchfaceView" pc="268435782" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="65" parent="globals/UkrainianwatchfaceView" pc="268435829" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="66" parent="globals/UkrainianwatchfaceView" pc="268435876" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="67" parent="globals/UkrainianwatchfaceView" pc="268435923" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="68" parent="globals/UkrainianwatchfaceView" pc="268435970" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="69" parent="globals/UkrainianwatchfaceView" pc="268436017" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="70" parent="globals/UkrainianwatchfaceView" pc="268436064" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="71" parent="globals/UkrainianwatchfaceView" pc="268436111" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="72" parent="globals/UkrainianwatchfaceView" pc="268436158" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="74" parent="globals/UkrainianwatchfaceView" pc="268436205" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="83" parent="globals/UkrainianwatchfaceView" pc="268436548" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="93" parent="globals/UkrainianwatchfaceView" pc="268436891" symbol="onLayout"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="52" parent="globals/UkrainianwatchfaceView" pc="268436933" symbol="initialize"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="53" parent="globals/UkrainianwatchfaceView" pc="268436935" symbol="initialize"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="103" parent="globals/UkrainianwatchfaceView" pc="268436954" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="104" parent="globals/UkrainianwatchfaceView" pc="268436958" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="105" parent="globals/UkrainianwatchfaceView" pc="268436980" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="106" parent="globals/UkrainianwatchfaceView" pc="268436992" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="107" parent="globals/UkrainianwatchfaceView" pc="268437018" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="109" parent="globals/UkrainianwatchfaceView" pc="268437045" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="111" parent="globals/UkrainianwatchfaceView" pc="268437088" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="127" parent="globals/UkrainianwatchfaceView" pc="268437744" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="128" parent="globals/UkrainianwatchfaceView" pc="268437761" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="135" parent="globals/UkrainianwatchfaceView" pc="268438050" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="136" parent="globals/UkrainianwatchfaceView" pc="268438081" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="137" parent="globals/UkrainianwatchfaceView" pc="268438112" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="138" parent="globals/UkrainianwatchfaceView" pc="268438143" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="139" parent="globals/UkrainianwatchfaceView" pc="268438165" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="140" parent="globals/UkrainianwatchfaceView" pc="268438172" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="148" parent="globals/UkrainianwatchfaceView" pc="268438335" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="159" parent="globals/UkrainianwatchfaceView" pc="268438477" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="160" parent="globals/UkrainianwatchfaceView" pc="268438516" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="161" parent="globals/UkrainianwatchfaceView" pc="268438555" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="169" parent="globals/UkrainianwatchfaceView" pc="268438646" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="170" parent="globals/UkrainianwatchfaceView" pc="268438668" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="179" parent="globals/UkrainianwatchfaceView" pc="268438750" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="180" parent="globals/UkrainianwatchfaceView" pc="268438767" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="181" parent="globals/UkrainianwatchfaceView" pc="268438789" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="182" parent="globals/UkrainianwatchfaceView" pc="268438910" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="183" parent="globals/UkrainianwatchfaceView" pc="268438932" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="186" parent="globals/UkrainianwatchfaceView" pc="268439053" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="187" parent="globals/UkrainianwatchfaceView" pc="268439084" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="188" parent="globals/UkrainianwatchfaceView" pc="268439115" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="189" parent="globals/UkrainianwatchfaceView" pc="268439146" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="192" parent="globals/UkrainianwatchfaceView" pc="268439177" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="204" parent="globals/UkrainianwatchfaceView" pc="268439305" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="216" parent="globals/UkrainianwatchfaceView" pc="268439433" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="228" parent="globals/UkrainianwatchfaceView" pc="268439570" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="240" parent="globals/UkrainianwatchfaceView" pc="268439707" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="241" parent="globals/UkrainianwatchfaceView" pc="268439754" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="242" parent="globals/UkrainianwatchfaceView" pc="268439777" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="243" parent="globals/UkrainianwatchfaceView" pc="268439806" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="244" parent="globals/UkrainianwatchfaceView" pc="268439855" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="245" parent="globals/UkrainianwatchfaceView" pc="268439900" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="246" parent="globals/UkrainianwatchfaceView" pc="268439922" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="248" parent="globals/UkrainianwatchfaceView" pc="268439974" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="249" parent="globals/UkrainianwatchfaceView" pc="268440022" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="250" parent="globals/UkrainianwatchfaceView" pc="268440044" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="251" parent="globals/UkrainianwatchfaceView" pc="268440051" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="253" parent="globals/UkrainianwatchfaceView" pc="268440115" symbol="onUpdate"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="10" lineNum="26" parent="globals" pc="268440171" symbol="getApp"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="10" lineNum="27" parent="globals" pc="268440181" symbol="getApp"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268440197" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="17" parent="globals/dataLabel" pc="268440221" symbol="initialize"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="18" parent="globals/dataLabel" pc="268440223" symbol="initialize"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="19" parent="globals/dataLabel" pc="268440233" symbol="initialize"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="13" lineNum="5" parent="globals/UkrainianwatchfaceApp" pc="268440244" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="14" lineNum="12" parent="globals/UkrainianwatchfaceApp" pc="268440263" symbol="onStart"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="15" lineNum="20" parent="globals/UkrainianwatchfaceApp" pc="268440266" symbol="getInitialView"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="15" lineNum="21" parent="globals/UkrainianwatchfaceApp" pc="268440268" symbol="getInitialView"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="16" lineNum="7" parent="globals/UkrainianwatchfaceApp" pc="268440309" symbol="initialize"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="16" lineNum="8" parent="globals/UkrainianwatchfaceApp" pc="268440311" symbol="initialize"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="17" lineNum="16" parent="globals/UkrainianwatchfaceApp" pc="268440330" symbol="onStop"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="6" parent="globals/Utils" pc="268440333" symbol="drawIconText"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="7" parent="globals/Utils" pc="268440345" symbol="drawIconText"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="8" parent="globals/Utils" pc="268440364" symbol="drawIconText"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="10" parent="globals/Utils" pc="268440390" symbol="drawIconText"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="11" parent="globals/Utils" pc="268440418" symbol="drawIconText"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="12" parent="globals/Utils" pc="268440485" symbol="drawIconText"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="14" parent="globals/Utils" pc="268440551" symbol="drawIconText"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="18" parent="globals/Utils" pc="268440601" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="28" parent="globals/Utils" pc="268440611" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="29" parent="globals/Utils" pc="268440629" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="31" parent="globals/Utils" pc="268440645" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="32" parent="globals/Utils" pc="268440664" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="33" parent="globals/Utils" pc="268440671" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="41" parent="globals/Utils" pc="268440708" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="49" parent="globals/Utils" pc="268440736" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="50" parent="globals/Utils" pc="268440755" symbol="drawCommentedValue"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268440787" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268440799" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268440911" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="29" parent="globals/Rez/Layouts" pc="268441023" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="31" parent="globals/Rez/Layouts" pc="268441148" symbol="WatchFace"/>
-<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B4079-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268441273" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="2" lineNum="283" parent="globals/UkrainianwatchfaceView" pc="268435479" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="2" lineNum="284" parent="globals/UkrainianwatchfaceView" pc="268435481" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="59" parent="globals/UkrainianwatchfaceView" pc="268435498" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="60" parent="globals/UkrainianwatchfaceView" pc="268435500" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="61" parent="globals/UkrainianwatchfaceView" pc="268435547" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="62" parent="globals/UkrainianwatchfaceView" pc="268435594" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="63" parent="globals/UkrainianwatchfaceView" pc="268435641" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="64" parent="globals/UkrainianwatchfaceView" pc="268435688" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="65" parent="globals/UkrainianwatchfaceView" pc="268435735" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="66" parent="globals/UkrainianwatchfaceView" pc="268435782" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="67" parent="globals/UkrainianwatchfaceView" pc="268435829" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="68" parent="globals/UkrainianwatchfaceView" pc="268435876" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="69" parent="globals/UkrainianwatchfaceView" pc="268435923" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="70" parent="globals/UkrainianwatchfaceView" pc="268435970" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="71" parent="globals/UkrainianwatchfaceView" pc="268436017" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="72" parent="globals/UkrainianwatchfaceView" pc="268436064" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="73" parent="globals/UkrainianwatchfaceView" pc="268436111" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="74" parent="globals/UkrainianwatchfaceView" pc="268436158" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="76" parent="globals/UkrainianwatchfaceView" pc="268436205" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="85" parent="globals/UkrainianwatchfaceView" pc="268436548" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="6" lineNum="95" parent="globals/UkrainianwatchfaceView" pc="268436891" symbol="onLayout"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="54" parent="globals/UkrainianwatchfaceView" pc="268436933" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="8" lineNum="55" parent="globals/UkrainianwatchfaceView" pc="268436935" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="105" parent="globals/UkrainianwatchfaceView" pc="268436954" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="106" parent="globals/UkrainianwatchfaceView" pc="268436958" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="107" parent="globals/UkrainianwatchfaceView" pc="268436980" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="108" parent="globals/UkrainianwatchfaceView" pc="268436992" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="109" parent="globals/UkrainianwatchfaceView" pc="268437018" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="111" parent="globals/UkrainianwatchfaceView" pc="268437045" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="112" parent="globals/UkrainianwatchfaceView" pc="268437068" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="114" parent="globals/UkrainianwatchfaceView" pc="268437091" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="115" parent="globals/UkrainianwatchfaceView" pc="268437104" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="130" parent="globals/UkrainianwatchfaceView" pc="268437693" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="150" parent="globals/UkrainianwatchfaceView" pc="268438243" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="151" parent="globals/UkrainianwatchfaceView" pc="268438260" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="152" parent="globals/UkrainianwatchfaceView" pc="268438291" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="153" parent="globals/UkrainianwatchfaceView" pc="268438322" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="154" parent="globals/UkrainianwatchfaceView" pc="268438353" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="155" parent="globals/UkrainianwatchfaceView" pc="268438375" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="156" parent="globals/UkrainianwatchfaceView" pc="268438382" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="163" parent="globals/UkrainianwatchfaceView" pc="268438671" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="171" parent="globals/UkrainianwatchfaceView" pc="268438834" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="182" parent="globals/UkrainianwatchfaceView" pc="268438976" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="183" parent="globals/UkrainianwatchfaceView" pc="268439015" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="184" parent="globals/UkrainianwatchfaceView" pc="268439054" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="192" parent="globals/UkrainianwatchfaceView" pc="268439145" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="193" parent="globals/UkrainianwatchfaceView" pc="268439167" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="202" parent="globals/UkrainianwatchfaceView" pc="268439249" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="203" parent="globals/UkrainianwatchfaceView" pc="268439266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="204" parent="globals/UkrainianwatchfaceView" pc="268439288" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="205" parent="globals/UkrainianwatchfaceView" pc="268439409" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="206" parent="globals/UkrainianwatchfaceView" pc="268439431" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="209" parent="globals/UkrainianwatchfaceView" pc="268439552" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="210" parent="globals/UkrainianwatchfaceView" pc="268439583" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="211" parent="globals/UkrainianwatchfaceView" pc="268439614" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="212" parent="globals/UkrainianwatchfaceView" pc="268439645" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="215" parent="globals/UkrainianwatchfaceView" pc="268439676" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="227" parent="globals/UkrainianwatchfaceView" pc="268439804" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="239" parent="globals/UkrainianwatchfaceView" pc="268439932" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="251" parent="globals/UkrainianwatchfaceView" pc="268440069" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="263" parent="globals/UkrainianwatchfaceView" pc="268440206" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="264" parent="globals/UkrainianwatchfaceView" pc="268440253" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="265" parent="globals/UkrainianwatchfaceView" pc="268440269" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="266" parent="globals/UkrainianwatchfaceView" pc="268440298" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="267" parent="globals/UkrainianwatchfaceView" pc="268440347" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="268" parent="globals/UkrainianwatchfaceView" pc="268440392" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="269" parent="globals/UkrainianwatchfaceView" pc="268440414" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="271" parent="globals/UkrainianwatchfaceView" pc="268440466" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="272" parent="globals/UkrainianwatchfaceView" pc="268440514" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="273" parent="globals/UkrainianwatchfaceView" pc="268440536" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="274" parent="globals/UkrainianwatchfaceView" pc="268440543" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="9" lineNum="276" parent="globals/UkrainianwatchfaceView" pc="268440607" symbol="onUpdate"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="10" lineNum="26" parent="globals" pc="268440663" symbol="getApp"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="10" lineNum="27" parent="globals" pc="268440673" symbol="getApp"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268440689" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="17" parent="globals/dataLabel" pc="268440713" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="18" parent="globals/dataLabel" pc="268440715" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceView.mc" id="12" lineNum="19" parent="globals/dataLabel" pc="268440725" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="13" lineNum="5" parent="globals/UkrainianwatchfaceApp" pc="268440736" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="14" lineNum="12" parent="globals/UkrainianwatchfaceApp" pc="268440755" symbol="onStart"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="15" lineNum="20" parent="globals/UkrainianwatchfaceApp" pc="268440758" symbol="getInitialView"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="15" lineNum="21" parent="globals/UkrainianwatchfaceApp" pc="268440760" symbol="getInitialView"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="16" lineNum="7" parent="globals/UkrainianwatchfaceApp" pc="268440801" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="16" lineNum="8" parent="globals/UkrainianwatchfaceApp" pc="268440803" symbol="initialize"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\UkrainianwatchfaceApp.mc" id="17" lineNum="16" parent="globals/UkrainianwatchfaceApp" pc="268440822" symbol="onStop"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="6" parent="globals/Utils" pc="268440825" symbol="drawIconText"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="7" parent="globals/Utils" pc="268440837" symbol="drawIconText"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="8" parent="globals/Utils" pc="268440856" symbol="drawIconText"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="10" parent="globals/Utils" pc="268440882" symbol="drawIconText"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="11" parent="globals/Utils" pc="268440910" symbol="drawIconText"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="12" parent="globals/Utils" pc="268440977" symbol="drawIconText"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="18" lineNum="14" parent="globals/Utils" pc="268441043" symbol="drawIconText"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="18" parent="globals/Utils" pc="268441093" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="28" parent="globals/Utils" pc="268441103" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="29" parent="globals/Utils" pc="268441121" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="31" parent="globals/Utils" pc="268441137" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="32" parent="globals/Utils" pc="268441156" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="33" parent="globals/Utils" pc="268441163" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="41" parent="globals/Utils" pc="268441200" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="49" parent="globals/Utils" pc="268441228" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\source\\Utils.mc" id="19" lineNum="50" parent="globals/Utils" pc="268441247" symbol="drawCommentedValue"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268441279" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268441291" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268441403" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="20" lineNum="29" parent="globals/Rez/Layouts" pc="268441515" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="20" lineNum="31" parent="globals/Rez/Layouts" pc="268441640" symbol="WatchFace"/>
+<entry filename="C:\\Users\\stani\\Documents\\Ukrainian watchface\\Ukrainianwatchface\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Layouts" pc="268441765" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="18" symbol="breath"/>
+<entry field="true" id="19" symbol="breath"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry field="true" id="77" symbol="temperatureFeelsLike"/>
+<entry field="true" id="79" symbol="temperatureFeelsLike"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="37" symbol="weatherThirdField"/>
+<entry field="true" id="39" symbol="weatherThirdField"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry field="true" id="63" symbol="day5Abbr"/>
+<entry field="true" id="65" symbol="day5Abbr"/>
 <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-<entry field="true" id="57" symbol="day2Abbr"/>
-<entry field="true" id="34" symbol="weatherArray"/>
-<entry field="true" id="27" symbol="metres"/>
+<entry field="true" id="59" symbol="day2Abbr"/>
+<entry field="true" id="36" symbol="weatherArray"/>
+<entry field="true" id="28" symbol="metres"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-<entry field="true" id="49" symbol="activityTimeSetting"/>
-<entry field="true" id="64" symbol="day5Name"/>
-<entry field="true" id="58" symbol="day2Name"/>
+<entry field="true" id="51" symbol="activityTimeSetting"/>
+<entry field="true" id="66" symbol="day5Name"/>
+<entry field="true" id="60" symbol="day2Name"/>
 <entry id="13" object="true" symbol="dataLabel"/>
-<entry field="true" id="51" symbol="beatsPerMin"/>
-<entry field="true" id="25" symbol="fullDayNames"/>
+<entry field="true" id="53" symbol="beatsPerMin"/>
+<entry field="true" id="26" symbol="fullDayNames"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="73" symbol="oxygenSaturationSetting"/>
+<entry field="true" id="75" symbol="oxygenSaturationSetting"/>
 <entry field="true" id="8388962" symbol="temperature"/>
-<entry field="true" id="50" symbol="altitudeSetting"/>
-<entry field="true" id="52" symbol="breathPerMinuteSetting"/>
-<entry field="true" id="48" symbol="AppName"/>
+<entry field="true" id="52" symbol="altitudeSetting"/>
+<entry field="true" id="54" symbol="breathPerMinuteSetting"/>
+<entry field="true" id="50" symbol="AppName"/>
 <entry field="true" id="8389807" symbol="data"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
-<entry field="true" id="72" symbol="humidity"/>
+<entry field="true" id="74" symbol="humidity"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="43" symbol="Kcal"/>
-<entry field="true" id="67" symbol="distanceSetting"/>
+<entry field="true" id="45" symbol="Kcal"/>
+<entry field="true" id="69" symbol="distanceSetting"/>
 <entry field="true" id="8388912" symbol="steps"/>
 <entry id="8388631" module="true" symbol="Activity"/>
+<entry field="true" id="14" symbol="act"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry field="true" id="16" symbol="bottomLeft"/>
+<entry field="true" id="17" symbol="bottomLeft"/>
 <entry field="true" id="8389138" symbol="label"/>
 <entry field="true" id="8390283" symbol="windSpeed"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
-<entry field="true" id="76" symbol="stepsSetting"/>
+<entry field="true" id="78" symbol="stepsSetting"/>
+<entry field="true" id="30" symbol="monitor"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8391489" module="true" symbol="Weather"/>
-<entry id="38" method="true" symbol="drawCommentedValue"/>
+<entry id="40" method="true" symbol="drawCommentedValue"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry field="true" id="61" symbol="day4Abbr"/>
+<entry field="true" id="63" symbol="day4Abbr"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry id="41" module="true" symbol="Menus"/>
+<entry id="43" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
-<entry field="true" id="55" symbol="day1Abbr"/>
+<entry field="true" id="57" symbol="day1Abbr"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry field="true" id="8389066" symbol="width"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry field="true" id="62" symbol="day4Name"/>
+<entry field="true" id="64" symbol="day4Name"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="56" symbol="day1Name"/>
-<entry field="true" id="28" symbol="metresPerSecond"/>
-<entry field="true" id="23" symbol="flashIcon"/>
-<entry field="true" id="68" symbol="energyExpenditureSetting"/>
+<entry field="true" id="58" symbol="day1Name"/>
+<entry field="true" id="29" symbol="metresPerSecond"/>
+<entry field="true" id="24" symbol="flashIcon"/>
+<entry field="true" id="70" symbol="energyExpenditureSetting"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="14" symbol="activity"/>
-<entry field="true" id="32" symbol="topLeft"/>
-<entry field="true" id="20" symbol="comfortaaMedium"/>
-<entry field="true" id="75" symbol="secondWeatherElement"/>
+<entry field="true" id="15" symbol="activity"/>
+<entry field="true" id="34" symbol="topLeft"/>
+<entry field="true" id="21" symbol="comfortaaMedium"/>
+<entry field="true" id="77" symbol="secondWeatherElement"/>
 <entry field="true" id="8389652" symbol="energyExpenditure"/>
-<entry field="true" id="19" symbol="comfortaaLarge"/>
+<entry field="true" id="20" symbol="comfortaaLarge"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="24" symbol="floors"/>
-<entry field="true" id="15" symbol="beatsPerMinute"/>
-<entry field="true" id="21" symbol="comfortaaSmall"/>
+<entry field="true" id="25" symbol="floors"/>
+<entry field="true" id="16" symbol="beatsPerMinute"/>
+<entry field="true" id="22" symbol="comfortaaSmall"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="71" symbol="heartrateSetting"/>
+<entry field="true" id="73" symbol="heartrateSetting"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="69" symbol="firstWeatherElement"/>
-<entry field="true" id="45" symbol="ComfortaaLarge"/>
+<entry field="true" id="71" symbol="firstWeatherElement"/>
+<entry field="true" id="47" symbol="ComfortaaLarge"/>
 <entry id="10" object="true" symbol="UkrainianwatchfaceApp"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="44" symbol="LauncherIcon"/>
+<entry field="true" id="46" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="30" symbol="saturation"/>
-<entry field="true" id="65" symbol="day6Abbr"/>
-<entry field="true" id="78" symbol="thirdWeatherElement"/>
-<entry field="true" id="59" symbol="day3Abbr"/>
+<entry field="true" id="32" symbol="saturation"/>
+<entry field="true" id="67" symbol="day6Abbr"/>
+<entry field="true" id="80" symbol="thirdWeatherElement"/>
+<entry field="true" id="61" symbol="day3Abbr"/>
 <entry id="8389350" module="true" symbol="globals"/>
-<entry field="true" id="53" symbol="day0Abbr"/>
+<entry field="true" id="55" symbol="day0Abbr"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry field="true" id="47" symbol="ComfortaaSmall"/>
+<entry field="true" id="49" symbol="ComfortaaSmall"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="70" symbol="floorsSetting"/>
-<entry field="true" id="33" symbol="topRight"/>
+<entry field="true" id="72" symbol="floorsSetting"/>
+<entry field="true" id="35" symbol="topRight"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="17" symbol="bottomRight"/>
-<entry field="true" id="66" symbol="day6Name"/>
-<entry field="true" id="60" symbol="day3Name"/>
+<entry field="true" id="18" symbol="bottomRight"/>
+<entry field="true" id="68" symbol="day6Name"/>
+<entry field="true" id="62" symbol="day3Name"/>
 <entry id="12" module="true" symbol="Utils"/>
-<entry field="true" id="36" symbol="weatherSecondField"/>
+<entry field="true" id="38" symbol="weatherSecondField"/>
 <entry id="9" module="true" symbol="globals/Utils"/>
-<entry field="true" id="54" symbol="day0Name"/>
+<entry field="true" id="56" symbol="day0Name"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
-<entry field="true" id="22" symbol="dataFields"/>
-<entry field="true" id="35" symbol="weatherFirstField"/>
+<entry field="true" id="23" symbol="dataFields"/>
+<entry field="true" id="37" symbol="weatherFirstField"/>
 <entry id="8389781" module="true" symbol="SensorHistory"/>
-<entry field="true" id="42" symbol="Flash"/>
-<entry id="40" module="true" symbol="Layouts"/>
+<entry field="true" id="44" symbol="Flash"/>
+<entry id="42" module="true" symbol="Layouts"/>
 <entry field="true" id="8391669" symbol="precipitationChance"/>
-<entry field="true" id="74" symbol="recoveryTimeSetting"/>
+<entry field="true" id="76" symbol="recoveryTimeSetting"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-<entry id="39" method="true" symbol="drawIconText"/>
-<entry field="true" id="46" symbol="ComfortaaMedium"/>
-<entry field="true" id="29" symbol="recovery"/>
+<entry id="41" method="true" symbol="drawIconText"/>
+<entry field="true" id="48" symbol="ComfortaaMedium"/>
+<entry field="true" id="31" symbol="recovery"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="11" object="true" symbol="UkrainianwatchfaceView"/>
-<entry field="true" id="31" symbol="shortDayNames"/>
+<entry field="true" id="33" symbol="shortDayNames"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry field="true" id="26" symbol="kcalIcon"/>
+<entry field="true" id="27" symbol="kcalIcon"/>
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268436932" name="dc" stackId="1" startPc="268435498"/>
-<entry arg="true" endPc="268440170" name="dc" stackId="1" startPc="268436954"/>
-<entry endPc="268440169" name="hours_width" stackId="2" startPc="268436958"/>
-<entry endPc="268440169" name="hours_height" stackId="3" startPc="268436958"/>
-<entry endPc="268440169" name="currentWeather" stackId="4" startPc="268436958"/>
-<entry endPc="268440169" name="fieldOneIndex" stackId="5" startPc="268436958"/>
-<entry endPc="268440169" name="fieldOTwoIndex" stackId="6" startPc="268436958"/>
-<entry endPc="268440169" name="fieldThreeIndex" stackId="7" startPc="268436958"/>
-<entry endPc="268440169" name="dateShort" stackId="8" startPc="268436958"/>
-<entry endPc="268440169" name="dateLong" stackId="9" startPc="268436958"/>
-<entry endPc="268440169" name="dateString" stackId="10" startPc="268436958"/>
-<entry endPc="268440169" name="clockTime" stackId="11" startPc="268436958"/>
-<entry endPc="268440169" name="topLeft" stackId="12" startPc="268436958"/>
-<entry endPc="268440169" name="bottomLeft" stackId="13" startPc="268436958"/>
-<entry endPc="268440169" name="topRight" stackId="14" startPc="268436958"/>
-<entry endPc="268440169" name="bottomRight" stackId="15" startPc="268436958"/>
-<entry endPc="268440169" name="battery" stackId="16" startPc="268436958"/>
-<entry endPc="268440169" name="calories" stackId="17" startPc="268436958"/>
-<entry endPc="268440169" name="text_width" stackId="18" startPc="268436958"/>
-<entry endPc="268440169" name="y" stackId="19" startPc="268436958"/>
-<entry arg="true" endPc="268440243" name="labelArg" stackId="1" startPc="268440221"/>
-<entry arg="true" endPc="268440243" name="dataArg" stackId="2" startPc="268440221"/>
-<entry arg="true" endPc="268440600" name="dc" stackId="1" startPc="268440333"/>
-<entry arg="true" endPc="268440600" name="text" stackId="2" startPc="268440333"/>
-<entry arg="true" endPc="268440600" name="x" stackId="3" startPc="268440333"/>
-<entry arg="true" endPc="268440600" name="y" stackId="4" startPc="268440333"/>
-<entry arg="true" endPc="268440600" name="text_color" stackId="5" startPc="268440333"/>
-<entry arg="true" endPc="268440600" name="icon" stackId="6" startPc="268440333"/>
-<entry endPc="268440599" name="text_width" stackId="7" startPc="268440345"/>
-<entry arg="true" endPc="268440786" name="dc" stackId="1" startPc="268440601"/>
-<entry arg="true" endPc="268440786" name="value" stackId="2" startPc="268440601"/>
-<entry arg="true" endPc="268440786" name="value_color" stackId="3" startPc="268440601"/>
-<entry arg="true" endPc="268440786" name="comment" stackId="4" startPc="268440601"/>
-<entry arg="true" endPc="268440786" name="comment_color" stackId="5" startPc="268440601"/>
-<entry arg="true" endPc="268440786" name="x" stackId="6" startPc="268440601"/>
-<entry arg="true" endPc="268440786" name="y" stackId="7" startPc="268440601"/>
-<entry arg="true" endPc="268440786" name="font" stackId="8" startPc="268440601"/>
-<entry arg="true" endPc="268441319" name="dc" stackId="1" startPc="268440787"/>
-<entry endPc="268441319" name="rez_cmp_local_text_HourLabel" stackId="2" startPc="268440799"/>
-<entry endPc="268441319" name="rez_cmp_local_text_MinLabel" stackId="3" startPc="268440799"/>
-<entry endPc="268441319" name="rez_cmp_local_text_StepsCount" stackId="4" startPc="268440799"/>
-<entry endPc="268441319" name="rez_cmp_local_text_StepsLabel" stackId="5" startPc="268440799"/>
+<entry arg="true" endPc="268440662" name="dc" stackId="1" startPc="268436954"/>
+<entry endPc="268440661" name="hours_width" stackId="2" startPc="268436958"/>
+<entry endPc="268440661" name="hours_height" stackId="3" startPc="268436958"/>
+<entry endPc="268440661" name="currentWeather" stackId="4" startPc="268436958"/>
+<entry endPc="268440661" name="fieldOneIndex" stackId="5" startPc="268436958"/>
+<entry endPc="268440661" name="fieldOTwoIndex" stackId="6" startPc="268436958"/>
+<entry endPc="268440661" name="fieldThreeIndex" stackId="7" startPc="268436958"/>
+<entry endPc="268440661" name="dateShort" stackId="8" startPc="268436958"/>
+<entry endPc="268440661" name="dateLong" stackId="9" startPc="268436958"/>
+<entry endPc="268440661" name="dateString" stackId="10" startPc="268436958"/>
+<entry endPc="268440661" name="clockTime" stackId="11" startPc="268436958"/>
+<entry endPc="268440661" name="topLeft" stackId="12" startPc="268436958"/>
+<entry endPc="268440661" name="bottomLeft" stackId="13" startPc="268436958"/>
+<entry endPc="268440661" name="topRight" stackId="14" startPc="268436958"/>
+<entry endPc="268440661" name="bottomRight" stackId="15" startPc="268436958"/>
+<entry endPc="268440661" name="battery" stackId="16" startPc="268436958"/>
+<entry endPc="268440661" name="calories" stackId="17" startPc="268436958"/>
+<entry endPc="268440661" name="text_width" stackId="18" startPc="268436958"/>
+<entry endPc="268440661" name="y" stackId="19" startPc="268436958"/>
+<entry arg="true" endPc="268440735" name="labelArg" stackId="1" startPc="268440713"/>
+<entry arg="true" endPc="268440735" name="dataArg" stackId="2" startPc="268440713"/>
+<entry arg="true" endPc="268441092" name="dc" stackId="1" startPc="268440825"/>
+<entry arg="true" endPc="268441092" name="text" stackId="2" startPc="268440825"/>
+<entry arg="true" endPc="268441092" name="x" stackId="3" startPc="268440825"/>
+<entry arg="true" endPc="268441092" name="y" stackId="4" startPc="268440825"/>
+<entry arg="true" endPc="268441092" name="text_color" stackId="5" startPc="268440825"/>
+<entry arg="true" endPc="268441092" name="icon" stackId="6" startPc="268440825"/>
+<entry endPc="268441091" name="text_width" stackId="7" startPc="268440837"/>
+<entry arg="true" endPc="268441278" name="dc" stackId="1" startPc="268441093"/>
+<entry arg="true" endPc="268441278" name="value" stackId="2" startPc="268441093"/>
+<entry arg="true" endPc="268441278" name="value_color" stackId="3" startPc="268441093"/>
+<entry arg="true" endPc="268441278" name="comment" stackId="4" startPc="268441093"/>
+<entry arg="true" endPc="268441278" name="comment_color" stackId="5" startPc="268441093"/>
+<entry arg="true" endPc="268441278" name="x" stackId="6" startPc="268441093"/>
+<entry arg="true" endPc="268441278" name="y" stackId="7" startPc="268441093"/>
+<entry arg="true" endPc="268441278" name="font" stackId="8" startPc="268441093"/>
+<entry arg="true" endPc="268441811" name="dc" stackId="1" startPc="268441279"/>
+<entry endPc="268441811" name="rez_cmp_local_text_HourLabel" stackId="2" startPc="268441291"/>
+<entry endPc="268441811" name="rez_cmp_local_text_MinLabel" stackId="3" startPc="268441291"/>
+<entry endPc="268441811" name="rez_cmp_local_text_StepsCount" stackId="4" startPc="268441291"/>
+<entry endPc="268441811" name="rez_cmp_local_text_StepsLabel" stackId="5" startPc="268441291"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="recoveryTimeSetting"/>
@@ -336,16 +341,16 @@
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/UkrainianwatchfaceView" offset="182" parentId="globals" symbolId="UkrainianwatchfaceView" type="class"/>
-<dataEntry label="globals/Utils" offset="509" parentId="globals" symbolId="Utils" type="module"/>
-<dataEntry label="globals/Rez" offset="556" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/dataLabel" offset="635" parentId="globals" symbolId="dataLabel" type="class"/>
-<dataEntry label="globals/UkrainianwatchfaceApp" offset="698" parentId="globals" symbolId="UkrainianwatchfaceApp" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="769" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="824" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="863" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="894" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="949" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="1356" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Utils" offset="525" parentId="globals" symbolId="Utils" type="module"/>
+<dataEntry label="globals/Rez" offset="572" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/dataLabel" offset="651" parentId="globals" symbolId="dataLabel" type="class"/>
+<dataEntry label="globals/UkrainianwatchfaceApp" offset="714" parentId="globals" symbolId="UkrainianwatchfaceApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="785" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="840" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="879" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="910" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="965" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1372" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="UkrainianwatchfaceView" startPc="268435460">
@@ -373,45 +378,45 @@
 <functionEntry accessMode="public" endPc="268436953" name="initialize" parent="UkrainianwatchfaceView" startPc="268436933">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440170" name="onUpdate" parent="UkrainianwatchfaceView" startPc="268436954">
+<functionEntry accessMode="public" endPc="268440662" name="onUpdate" parent="UkrainianwatchfaceView" startPc="268436954">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440196" name="getApp" startPc="268440171">
+<functionEntry accessMode="public" endPc="268440688" name="getApp" startPc="268440663">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Utils">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440220" name="&lt;init&gt;" parent="Rez" startPc="268440197">
+<functionEntry accessMode="public" endPc="268440712" name="&lt;init&gt;" parent="Rez" startPc="268440689">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="dataLabel">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440243" name="initialize" parent="dataLabel" startPc="268440221">
+<functionEntry accessMode="public" endPc="268440735" name="initialize" parent="dataLabel" startPc="268440713">
 <param id="labelArg"/>
 <param id="dataArg"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440262" name="&lt;init&gt;" parent="UkrainianwatchfaceApp" startPc="268440244">
+<functionEntry accessMode="public" endPc="268440754" name="&lt;init&gt;" parent="UkrainianwatchfaceApp" startPc="268440736">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440265" name="onStart" parent="UkrainianwatchfaceApp" startPc="268440263">
+<functionEntry accessMode="public" endPc="268440757" name="onStart" parent="UkrainianwatchfaceApp" startPc="268440755">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440308" name="getInitialView" parent="UkrainianwatchfaceApp" startPc="268440266">
+<functionEntry accessMode="public" endPc="268440800" name="getInitialView" parent="UkrainianwatchfaceApp" startPc="268440758">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440329" name="initialize" parent="UkrainianwatchfaceApp" startPc="268440309">
+<functionEntry accessMode="public" endPc="268440821" name="initialize" parent="UkrainianwatchfaceApp" startPc="268440801">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440332" name="onStop" parent="UkrainianwatchfaceApp" startPc="268440330">
+<functionEntry accessMode="public" endPc="268440824" name="onStop" parent="UkrainianwatchfaceApp" startPc="268440822">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440600" name="drawIconText" parent="Utils" startPc="268440333">
+<functionEntry accessMode="public" endPc="268441092" name="drawIconText" parent="Utils" startPc="268440825">
 <param id="dc"/>
 <param id="text"/>
 <param id="x"/>
@@ -420,7 +425,7 @@
 <param id="icon"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440786" name="drawCommentedValue" parent="Utils" startPc="268440601">
+<functionEntry accessMode="public" endPc="268441278" name="drawCommentedValue" parent="Utils" startPc="268441093">
 <param id="dc"/>
 <param id="value"/>
 <param id="value_color"/>
@@ -449,7 +454,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268441319" name="WatchFace" parent="Layouts" startPc="268440787">
+<functionEntry accessMode="public" endPc="268441811" name="WatchFace" parent="Layouts" startPc="268441279">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
