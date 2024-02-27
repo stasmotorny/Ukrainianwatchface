@@ -1,1 +1,423 @@
-{"settings":[{"key":"weatherFirst","valueType":"number","defaultValue":0,"configTitle":"firstWeatherElement","configPrompt":null,"configType":"list","configError":null,"configHelpUrl":null,"configReadonly":false,"configRequired":false,"configOptions":[{"display":"temperature","value":0},{"display":"windSpeed","value":1},{"display":"precipitationChance","value":2},{"display":"humidity","value":3},{"display":"temperatureFeelsLike","value":4}],"configMin":null,"configMax":null,"configMaxLength":null},{"key":"weatherSecond","valueType":"number","defaultValue":1,"configTitle":"secondWeatherElement","configPrompt":null,"configType":"list","configError":null,"configHelpUrl":null,"configReadonly":false,"configRequired":false,"configOptions":[{"display":"temperature","value":0},{"display":"windSpeed","value":1},{"display":"precipitationChance","value":2},{"display":"humidity","value":3},{"display":"temperatureFeelsLike","value":4}],"configMin":null,"configMax":null,"configMaxLength":null},{"key":"weatherThird","valueType":"number","defaultValue":2,"configTitle":"thirdWeatherElement","configPrompt":null,"configType":"list","configError":null,"configHelpUrl":null,"configReadonly":false,"configRequired":false,"configOptions":[{"display":"temperature","value":0},{"display":"windSpeed","value":1},{"display":"precipitationChance","value":2},{"display":"humidity","value":3},{"display":"temperatureFeelsLike","value":4}],"configMin":null,"configMax":null,"configMaxLength":null},{"key":"topLeft","valueType":"number","defaultValue":1,"configTitle":"topLeft","configPrompt":null,"configType":"list","configError":null,"configHelpUrl":null,"configReadonly":false,"configRequired":false,"configOptions":[{"display":"stepsSetting","value":0},{"display":"heartrateSetting","value":1},{"display":"floorsSetting","value":2},{"display":"altitudeSetting","value":3},{"display":"breathPerMinuteSetting","value":4},{"display":"oxygenSaturationSetting","value":5},{"display":"energyExpenditureSetting","value":6},{"display":"recoveryTimeSetting","value":7},{"display":"distanceSetting","value":8},{"display":"activityTimeSetting","value":9}],"configMin":null,"configMax":null,"configMaxLength":null},{"key":"bottomLeft","valueType":"number","defaultValue":0,"configTitle":"bottomLeft","configPrompt":null,"configType":"list","configError":null,"configHelpUrl":null,"configReadonly":false,"configRequired":false,"configOptions":[{"display":"stepsSetting","value":0},{"display":"heartrateSetting","value":1},{"display":"floorsSetting","value":2},{"display":"altitudeSetting","value":3},{"display":"breathPerMinuteSetting","value":4},{"display":"oxygenSaturationSetting","value":5},{"display":"energyExpenditureSetting","value":6},{"display":"recoveryTimeSetting","value":7},{"display":"distanceSetting","value":8},{"display":"activityTimeSetting","value":9}],"configMin":null,"configMax":null,"configMaxLength":null},{"key":"topRight","valueType":"number","defaultValue":2,"configTitle":"topRight","configPrompt":null,"configType":"list","configError":null,"configHelpUrl":null,"configReadonly":false,"configRequired":false,"configOptions":[{"display":"stepsSetting","value":0},{"display":"heartrateSetting","value":1},{"display":"floorsSetting","value":2},{"display":"altitudeSetting","value":3},{"display":"breathPerMinuteSetting","value":4},{"display":"oxygenSaturationSetting","value":5},{"display":"energyExpenditureSetting","value":6},{"display":"recoveryTimeSetting","value":7},{"display":"distanceSetting","value":8},{"display":"activityTimeSetting","value":9}],"configMin":null,"configMax":null,"configMaxLength":null},{"key":"bottomRight","valueType":"number","defaultValue":3,"configTitle":"bottomRight","configPrompt":null,"configType":"list","configError":null,"configHelpUrl":null,"configReadonly":false,"configRequired":false,"configOptions":[{"display":"stepsSetting","value":0},{"display":"heartrateSetting","value":1},{"display":"floorsSetting","value":2},{"display":"altitudeSetting","value":3},{"display":"breathPerMinuteSetting","value":4},{"display":"oxygenSaturationSetting","value":5},{"display":"energyExpenditureSetting","value":6},{"display":"recoveryTimeSetting","value":7},{"display":"distanceSetting","value":8},{"display":"activityTimeSetting","value":9}],"configMin":null,"configMax":null,"configMaxLength":null}],"supportsLiveValidation":false,"languages":{"rus":{"day4Abbr":"Чт","metres":"Метри","energyExpenditureSetting":"Поточні витрати енергії","day1Name":"Понеділок","activity":"Хвилин","altitudeSetting":"Поточна висота","bottomRight":"Нижнє праве поле даних","activityTimeSetting":"Активний час за сьогодні","energyExpenditure":"ккал/хв","floorsSetting":"Кількість поверхів сьогодні","day0Abbr":"Нд","day0Name":"Неділя","recovery":"Годин","AppName":"Український вотчфейс","day6Name":"Субота","oxygenSaturationSetting":"Насиченість крові киснем","day2Name":"Вівторок","breath":"Вдих/хв","saturation":"Насич., %","floors":"Поверхи","temperature":"Температура","humidity":"Вологість","heartrateSetting":"Поточна частота пульсу","day1Abbr":"Пн","day5Abbr":"Пт","windSpeed":"Швидкість вітру","day3Name":"Середа","bottomLeft":"Нижнє ліве поле даних","beatsPerMin":"уд./хв.","recoveryTimeSetting":"Час відновлення","secondWeatherElement":"Блок погоди, другий елемент","thirdWeatherElement":"Блок погоди, третій елемент","topRight":"Верхнє праве поле даних","precipitationChance":"Ймовірність опадів","day2Abbr":"Вт","day4Name":"Четвер","steps":"Кроки","day6Abbr":"Сб","firstWeatherElement":"Блок погоди, перший елемент","day3Abbr":"Ср","metresPerSecond":"м/с","breathPerMinuteSetting":"Частота дихання","topLeft":"Верхнє ліве поле даних","day5Name":"П\u0027ятниця","distanceSetting":"Подолана сьогодні відстань","temperatureFeelsLike":"Температура відчувається як","stepsSetting":"Кількість кроків сьогодні"},"valyrian":{"day4Abbr":"Thu","metres":"Metres","energyExpenditureSetting":"Energy expenditure","day1Name":"Monday","activity":"Minutes","altitudeSetting":"Current altitude","bottomRight":"Bottom right datafield","activityTimeSetting":"Active time today","energyExpenditure":"kcal/min","floorsSetting":"Floors today","day0Abbr":"Sun","day0Name":"Sunday","recovery":"Hours","AppName":"Ukrainian watchface","day6Name":"Saturday","oxygenSaturationSetting":"Oxygen saturation","day2Name":"Tuesday","breath":"br/min","saturation":"Sat., %","floors":"Floors","temperature":"Temperature","humidity":"Humidity","heartrateSetting":"Current heartrate","day1Abbr":"Mon","day5Abbr":"Fri","windSpeed":"Wind speed","day3Name":"Wednesday","bottomLeft":"Bottom left datafield","beatsPerMin":"bpm","recoveryTimeSetting":"Recovery time","secondWeatherElement":"Second weather element","thirdWeatherElement":"Third weather element","topRight":"Top right datafield","precipitationChance":"Precipitation chance","day2Abbr":"Tue","day4Name":"Thursday","steps":"Steps","day6Abbr":"Sat","firstWeatherElement":"First weather element","day3Abbr":"Wed","metresPerSecond":"m/s","breathPerMinuteSetting":"Breates per minute","topLeft":"Top left datafield","day5Name":"Friday","distanceSetting":"Distance passed today","temperatureFeelsLike":"Temperature feels like","stepsSetting":"Steps today"},"ukr":{"day4Abbr":"Чт","metres":"Метри","energyExpenditureSetting":"Поточні витрати енергії","day1Name":"Понеділок","activity":"Хвилин","altitudeSetting":"Поточна висота","bottomRight":"Нижнє праве поле даних","activityTimeSetting":"Активний час за сьогодні","energyExpenditure":"ккал/хв","floorsSetting":"Кількість поверхів сьогодні","day0Abbr":"Нд","day0Name":"Неділя","recovery":"Годин","AppName":"Український вотчфейс","day6Name":"Субота","oxygenSaturationSetting":"Насиченість крові киснем","day2Name":"Вівторок","breath":"Вдих/хв","saturation":"Насич., %","floors":"Поверхи","temperature":"Температура","humidity":"Вологість","heartrateSetting":"Поточна частота пульсу","day1Abbr":"Пн","day5Abbr":"Пт","windSpeed":"Швидкість вітру","day3Name":"Середа","bottomLeft":"Нижнє ліве поле даних","beatsPerMin":"уд./хв.","recoveryTimeSetting":"Час відновлення","secondWeatherElement":"Блок погоди, другий елемент","thirdWeatherElement":"Блок погоди, третій елемент","topRight":"Верхнє праве поле даних","precipitationChance":"Ймовірність опадів","day2Abbr":"Вт","day4Name":"Четвер","steps":"Кроки","day6Abbr":"Сб","firstWeatherElement":"Блок погоди, перший елемент","day3Abbr":"Ср","metresPerSecond":"м/с","breathPerMinuteSetting":"Частота дихання","topLeft":"Верхнє ліве поле даних","day5Name":"П\u0027ятниця","distanceSetting":"Подолана сьогодні відстань","temperatureFeelsLike":"Температура відчувається як","stepsSetting":"Кількість кроків сьогодні"}}}
+{
+  "settings" : [ {
+    "key" : "weatherFirst",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "firstWeatherElement",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "temperature",
+      "value" : 0
+    }, {
+      "display" : "windSpeed",
+      "value" : 1
+    }, {
+      "display" : "precipitationChance",
+      "value" : 2
+    }, {
+      "display" : "humidity",
+      "value" : 3
+    }, {
+      "display" : "temperatureFeelsLike",
+      "value" : 4
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "weatherSecond",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "secondWeatherElement",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "temperature",
+      "value" : 0
+    }, {
+      "display" : "windSpeed",
+      "value" : 1
+    }, {
+      "display" : "precipitationChance",
+      "value" : 2
+    }, {
+      "display" : "humidity",
+      "value" : 3
+    }, {
+      "display" : "temperatureFeelsLike",
+      "value" : 4
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "weatherThird",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "thirdWeatherElement",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "temperature",
+      "value" : 0
+    }, {
+      "display" : "windSpeed",
+      "value" : 1
+    }, {
+      "display" : "precipitationChance",
+      "value" : 2
+    }, {
+      "display" : "humidity",
+      "value" : 3
+    }, {
+      "display" : "temperatureFeelsLike",
+      "value" : 4
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "topLeft",
+    "valueType" : "number",
+    "defaultValue" : 1,
+    "configTitle" : "topLeft",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "stepsSetting",
+      "value" : 0
+    }, {
+      "display" : "heartrateSetting",
+      "value" : 1
+    }, {
+      "display" : "floorsSetting",
+      "value" : 2
+    }, {
+      "display" : "altitudeSetting",
+      "value" : 3
+    }, {
+      "display" : "breathPerMinuteSetting",
+      "value" : 4
+    }, {
+      "display" : "oxygenSaturationSetting",
+      "value" : 5
+    }, {
+      "display" : "energyExpenditureSetting",
+      "value" : 6
+    }, {
+      "display" : "recoveryTimeSetting",
+      "value" : 7
+    }, {
+      "display" : "distanceSetting",
+      "value" : 8
+    }, {
+      "display" : "activityTimeSetting",
+      "value" : 9
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "bottomLeft",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "bottomLeft",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "stepsSetting",
+      "value" : 0
+    }, {
+      "display" : "heartrateSetting",
+      "value" : 1
+    }, {
+      "display" : "floorsSetting",
+      "value" : 2
+    }, {
+      "display" : "altitudeSetting",
+      "value" : 3
+    }, {
+      "display" : "breathPerMinuteSetting",
+      "value" : 4
+    }, {
+      "display" : "oxygenSaturationSetting",
+      "value" : 5
+    }, {
+      "display" : "energyExpenditureSetting",
+      "value" : 6
+    }, {
+      "display" : "recoveryTimeSetting",
+      "value" : 7
+    }, {
+      "display" : "distanceSetting",
+      "value" : 8
+    }, {
+      "display" : "activityTimeSetting",
+      "value" : 9
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "topRight",
+    "valueType" : "number",
+    "defaultValue" : 2,
+    "configTitle" : "topRight",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "stepsSetting",
+      "value" : 0
+    }, {
+      "display" : "heartrateSetting",
+      "value" : 1
+    }, {
+      "display" : "floorsSetting",
+      "value" : 2
+    }, {
+      "display" : "altitudeSetting",
+      "value" : 3
+    }, {
+      "display" : "breathPerMinuteSetting",
+      "value" : 4
+    }, {
+      "display" : "oxygenSaturationSetting",
+      "value" : 5
+    }, {
+      "display" : "energyExpenditureSetting",
+      "value" : 6
+    }, {
+      "display" : "recoveryTimeSetting",
+      "value" : 7
+    }, {
+      "display" : "distanceSetting",
+      "value" : 8
+    }, {
+      "display" : "activityTimeSetting",
+      "value" : 9
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "bottomRight",
+    "valueType" : "number",
+    "defaultValue" : 3,
+    "configTitle" : "bottomRight",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "stepsSetting",
+      "value" : 0
+    }, {
+      "display" : "heartrateSetting",
+      "value" : 1
+    }, {
+      "display" : "floorsSetting",
+      "value" : 2
+    }, {
+      "display" : "altitudeSetting",
+      "value" : 3
+    }, {
+      "display" : "breathPerMinuteSetting",
+      "value" : 4
+    }, {
+      "display" : "oxygenSaturationSetting",
+      "value" : 5
+    }, {
+      "display" : "energyExpenditureSetting",
+      "value" : 6
+    }, {
+      "display" : "recoveryTimeSetting",
+      "value" : 7
+    }, {
+      "display" : "distanceSetting",
+      "value" : 8
+    }, {
+      "display" : "activityTimeSetting",
+      "value" : 9
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "rus" : {
+      "day4Abbr" : "Чт",
+      "metres" : "Метри",
+      "energyExpenditureSetting" : "Поточні витрати енергії",
+      "day1Name" : "Понеділок",
+      "activity" : "Хвилин",
+      "altitudeSetting" : "Поточна висота",
+      "bottomRight" : "Нижнє праве поле даних",
+      "activityTimeSetting" : "Активний час за сьогодні",
+      "energyExpenditure" : "ккал/хв",
+      "floorsSetting" : "Кількість поверхів сьогодні",
+      "day0Abbr" : "Нд",
+      "day0Name" : "Неділя",
+      "recovery" : "Годин",
+      "AppName" : "Український вотчфейс",
+      "day6Name" : "Субота",
+      "oxygenSaturationSetting" : "Насиченість крові киснем",
+      "day2Name" : "Вівторок",
+      "breath" : "Вдих/хв",
+      "saturation" : "Насич., %",
+      "floors" : "Поверхи",
+      "temperature" : "Температура",
+      "humidity" : "Вологість",
+      "heartrateSetting" : "Поточна частота пульсу",
+      "day1Abbr" : "Пн",
+      "day5Abbr" : "Пт",
+      "windSpeed" : "Швидкість вітру",
+      "day3Name" : "Середа",
+      "bottomLeft" : "Нижнє ліве поле даних",
+      "beatsPerMin" : "уд./хв.",
+      "recoveryTimeSetting" : "Час відновлення",
+      "secondWeatherElement" : "Блок погоди, другий елемент",
+      "thirdWeatherElement" : "Блок погоди, третій елемент",
+      "topRight" : "Верхнє праве поле даних",
+      "precipitationChance" : "Ймовірність опадів",
+      "day2Abbr" : "Вт",
+      "day4Name" : "Четвер",
+      "steps" : "Кроки",
+      "day6Abbr" : "Сб",
+      "firstWeatherElement" : "Блок погоди, перший елемент",
+      "day3Abbr" : "Ср",
+      "metresPerSecond" : "м/с",
+      "breathPerMinuteSetting" : "Частота дихання",
+      "topLeft" : "Верхнє ліве поле даних",
+      "day5Name" : "П'ятниця",
+      "distanceSetting" : "Подолана сьогодні відстань",
+      "temperatureFeelsLike" : "Температура відчувається як",
+      "stepsSetting" : "Кількість кроків сьогодні"
+    },
+    "valyrian" : {
+      "day4Abbr" : "Thu",
+      "metres" : "Metres",
+      "energyExpenditureSetting" : "Energy expenditure",
+      "day1Name" : "Monday",
+      "activity" : "Minutes",
+      "altitudeSetting" : "Current altitude",
+      "bottomRight" : "Bottom right datafield",
+      "activityTimeSetting" : "Active time today",
+      "energyExpenditure" : "kcal/min",
+      "floorsSetting" : "Floors today",
+      "day0Abbr" : "Sun",
+      "day0Name" : "Sunday",
+      "recovery" : "Hours",
+      "AppName" : "Ukrainian watchface",
+      "day6Name" : "Saturday",
+      "oxygenSaturationSetting" : "Oxygen saturation",
+      "day2Name" : "Tuesday",
+      "breath" : "br/min",
+      "saturation" : "Sat., %",
+      "floors" : "Floors",
+      "temperature" : "Temperature",
+      "humidity" : "Humidity",
+      "heartrateSetting" : "Current heartrate",
+      "day1Abbr" : "Mon",
+      "day5Abbr" : "Fri",
+      "windSpeed" : "Wind speed",
+      "day3Name" : "Wednesday",
+      "bottomLeft" : "Bottom left datafield",
+      "beatsPerMin" : "bpm",
+      "recoveryTimeSetting" : "Recovery time",
+      "secondWeatherElement" : "Second weather element",
+      "thirdWeatherElement" : "Third weather element",
+      "topRight" : "Top right datafield",
+      "precipitationChance" : "Precipitation chance",
+      "day2Abbr" : "Tue",
+      "day4Name" : "Thursday",
+      "steps" : "Steps",
+      "day6Abbr" : "Sat",
+      "firstWeatherElement" : "First weather element",
+      "day3Abbr" : "Wed",
+      "metresPerSecond" : "m/s",
+      "breathPerMinuteSetting" : "Breates per minute",
+      "topLeft" : "Top left datafield",
+      "day5Name" : "Friday",
+      "distanceSetting" : "Distance passed today",
+      "temperatureFeelsLike" : "Temperature feels like",
+      "stepsSetting" : "Steps today"
+    },
+    "ukr" : {
+      "day4Abbr" : "Чт",
+      "metres" : "Метри",
+      "energyExpenditureSetting" : "Поточні витрати енергії",
+      "day1Name" : "Понеділок",
+      "activity" : "Хвилин",
+      "altitudeSetting" : "Поточна висота",
+      "bottomRight" : "Нижнє праве поле даних",
+      "activityTimeSetting" : "Активний час за сьогодні",
+      "energyExpenditure" : "ккал/хв",
+      "floorsSetting" : "Кількість поверхів сьогодні",
+      "day0Abbr" : "Нд",
+      "day0Name" : "Неділя",
+      "recovery" : "Годин",
+      "AppName" : "Український вотчфейс",
+      "day6Name" : "Субота",
+      "oxygenSaturationSetting" : "Насиченість крові киснем",
+      "day2Name" : "Вівторок",
+      "breath" : "Вдих/хв",
+      "saturation" : "Насич., %",
+      "floors" : "Поверхи",
+      "temperature" : "Температура",
+      "humidity" : "Вологість",
+      "heartrateSetting" : "Поточна частота пульсу",
+      "day1Abbr" : "Пн",
+      "day5Abbr" : "Пт",
+      "windSpeed" : "Швидкість вітру",
+      "day3Name" : "Середа",
+      "bottomLeft" : "Нижнє ліве поле даних",
+      "beatsPerMin" : "уд./хв.",
+      "recoveryTimeSetting" : "Час відновлення",
+      "secondWeatherElement" : "Блок погоди, другий елемент",
+      "thirdWeatherElement" : "Блок погоди, третій елемент",
+      "topRight" : "Верхнє праве поле даних",
+      "precipitationChance" : "Ймовірність опадів",
+      "day2Abbr" : "Вт",
+      "day4Name" : "Четвер",
+      "steps" : "Кроки",
+      "day6Abbr" : "Сб",
+      "firstWeatherElement" : "Блок погоди, перший елемент",
+      "day3Abbr" : "Ср",
+      "metresPerSecond" : "м/с",
+      "breathPerMinuteSetting" : "Частота дихання",
+      "topLeft" : "Верхнє ліве поле даних",
+      "day5Name" : "П'ятниця",
+      "distanceSetting" : "Подолана сьогодні відстань",
+      "temperatureFeelsLike" : "Температура відчувається як",
+      "stepsSetting" : "Кількість кроків сьогодні"
+    }
+  }
+}

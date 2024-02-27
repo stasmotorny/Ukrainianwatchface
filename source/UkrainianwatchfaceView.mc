@@ -154,7 +154,7 @@ class UkrainianwatchfaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_WHITE,Graphics.COLOR_TRANSPARENT);
         if (currentWeather != null) {
             weatherArray = [
-                Lang.format("$1$°C", [currentWeather.temperature]),
+                Lang.format("$1$°C", [currentWeather.temperature.format("%.2f")]),
                 Lang.format("$1$$2$", [currentWeather.windSpeed.toNumber(), metresPerSecond]),
                 Lang.format("$1$%", [currentWeather.precipitationChance]),
                 Lang.format("$1$%", [currentWeather.relativeHumidity]),
