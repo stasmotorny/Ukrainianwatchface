@@ -6,16 +6,19 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var Flash as ResourceId;
-        (:initialized) var Kcal as ResourceId;
-        (:initialized) var LauncherIcon as ResourceId;
+        (:initialized) var Flash as Symbol;
+        (:initialized) var Kcal as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
     } // Drawables
 
     module Fonts {
-        (:initialized) var ComfortaaLarge as ResourceId;
-        (:initialized) var ComfortaaSmall as ResourceId;
-        (:initialized) var ComfortaaMedium as ResourceId;
+        (:initialized) var ComfortaaLarge as Symbol;
+        (:initialized) var ComfortaaSmall as Symbol;
+        (:initialized) var ComfortaaMedium as Symbol;
     } // Fonts
+
+    module JsonData {
+    } // JsonData
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
@@ -31,54 +34,57 @@ module Rez {
         }
     } // Layouts
 
+    module Menus {
+    } // Menus
+
     module Strings {
-        (:initialized) var day4Abbr as ResourceId;
-        (:initialized) var metres as ResourceId;
-        (:initialized) var energyExpenditureSetting as ResourceId;
-        (:initialized) var day1Name as ResourceId;
-        (:initialized) var activity as ResourceId;
-        (:initialized) var altitudeSetting as ResourceId;
-        (:initialized) var bottomRight as ResourceId;
-        (:initialized) var activityTimeSetting as ResourceId;
-        (:initialized) var energyExpenditure as ResourceId;
-        (:initialized) var floorsSetting as ResourceId;
-        (:initialized) var day0Abbr as ResourceId;
-        (:initialized) var day0Name as ResourceId;
-        (:initialized) var recovery as ResourceId;
-        (:initialized) var AppName as ResourceId;
-        (:initialized) var day6Name as ResourceId;
-        (:initialized) var oxygenSaturationSetting as ResourceId;
-        (:initialized) var day2Name as ResourceId;
-        (:initialized) var breath as ResourceId;
-        (:initialized) var saturation as ResourceId;
-        (:initialized) var floors as ResourceId;
-        (:initialized) var temperature as ResourceId;
-        (:initialized) var humidity as ResourceId;
-        (:initialized) var heartrateSetting as ResourceId;
-        (:initialized) var day1Abbr as ResourceId;
-        (:initialized) var day5Abbr as ResourceId;
-        (:initialized) var windSpeed as ResourceId;
-        (:initialized) var day3Name as ResourceId;
-        (:initialized) var bottomLeft as ResourceId;
-        (:initialized) var beatsPerMin as ResourceId;
-        (:initialized) var recoveryTimeSetting as ResourceId;
-        (:initialized) var secondWeatherElement as ResourceId;
-        (:initialized) var thirdWeatherElement as ResourceId;
-        (:initialized) var topRight as ResourceId;
-        (:initialized) var precipitationChance as ResourceId;
-        (:initialized) var day2Abbr as ResourceId;
-        (:initialized) var day4Name as ResourceId;
-        (:initialized) var steps as ResourceId;
-        (:initialized) var day6Abbr as ResourceId;
-        (:initialized) var firstWeatherElement as ResourceId;
-        (:initialized) var day3Abbr as ResourceId;
-        (:initialized) var metresPerSecond as ResourceId;
-        (:initialized) var breathPerMinuteSetting as ResourceId;
-        (:initialized) var topLeft as ResourceId;
-        (:initialized) var day5Name as ResourceId;
-        (:initialized) var distanceSetting as ResourceId;
-        (:initialized) var temperatureFeelsLike as ResourceId;
-        (:initialized) var stepsSetting as ResourceId;
+        (:initialized) var day4Abbr as Symbol;
+        (:initialized) var metres as Symbol;
+        (:initialized) var energyExpenditureSetting as Symbol;
+        (:initialized) var day1Name as Symbol;
+        (:initialized) var activity as Symbol;
+        (:initialized) var altitudeSetting as Symbol;
+        (:initialized) var bottomRight as Symbol;
+        (:initialized) var activityTimeSetting as Symbol;
+        (:initialized) var energyExpenditure as Symbol;
+        (:initialized) var floorsSetting as Symbol;
+        (:initialized) var day0Abbr as Symbol;
+        (:initialized) var day0Name as Symbol;
+        (:initialized) var recovery as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var day6Name as Symbol;
+        (:initialized) var oxygenSaturationSetting as Symbol;
+        (:initialized) var day2Name as Symbol;
+        (:initialized) var breath as Symbol;
+        (:initialized) var saturation as Symbol;
+        (:initialized) var floors as Symbol;
+        (:initialized) var temperature as Symbol;
+        (:initialized) var humidity as Symbol;
+        (:initialized) var heartrateSetting as Symbol;
+        (:initialized) var day1Abbr as Symbol;
+        (:initialized) var day5Abbr as Symbol;
+        (:initialized) var windSpeed as Symbol;
+        (:initialized) var day3Name as Symbol;
+        (:initialized) var bottomLeft as Symbol;
+        (:initialized) var beatsPerMin as Symbol;
+        (:initialized) var recoveryTimeSetting as Symbol;
+        (:initialized) var secondWeatherElement as Symbol;
+        (:initialized) var thirdWeatherElement as Symbol;
+        (:initialized) var topRight as Symbol;
+        (:initialized) var precipitationChance as Symbol;
+        (:initialized) var day2Abbr as Symbol;
+        (:initialized) var day4Name as Symbol;
+        (:initialized) var steps as Symbol;
+        (:initialized) var day6Abbr as Symbol;
+        (:initialized) var firstWeatherElement as Symbol;
+        (:initialized) var day3Abbr as Symbol;
+        (:initialized) var metresPerSecond as Symbol;
+        (:initialized) var breathPerMinuteSetting as Symbol;
+        (:initialized) var topLeft as Symbol;
+        (:initialized) var day5Name as Symbol;
+        (:initialized) var distanceSetting as Symbol;
+        (:initialized) var temperatureFeelsLike as Symbol;
+        (:initialized) var stepsSetting as Symbol;
     } // Strings
 
     module Styles {
